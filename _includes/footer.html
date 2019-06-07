@@ -27,11 +27,7 @@
         </div>
         <div class="footer_form footer_cell">
             <p>Хотите быть в курсе последних событий? Подпишитесь! Мы не отправляем спам.</p>
-            <form class="subscribe_form" action="mailto:kotelco@ukr.net">
-                <label><input type="email" required name="mail" placeholder="Ваш e-mail" maxlength="30"></label>
-                <input type="hidden" name="hidden" value="news">
-                <label class="subscribe"><input type="submit" value="Подписаться"/></label>
-            </form>
+            {% include footer_mc_form.html %}
         </div>
     </div>
     <p class="copy">Авторские права © Котел.Ко 2018</p>
