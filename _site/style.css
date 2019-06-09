@@ -137,6 +137,31 @@ html, body {
   margin: 0;
   font-size: 16px;
   overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
+.default_layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.default_layout footer {
+  margin-top: auto;
+}
+.default_layout .default_content {
+  padding-top: 100px;
+}
+
+.default_layout:after {
+  content: "";
+  background: #ff6633 url(/images/warm-house.jpg) repeat-y center bottom;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 h1 {
@@ -311,6 +336,15 @@ a {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.default_content .sub-menu {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.default_content .main_menu:hover li > ul {
+  background-color: white;
+}
+
 .scrol {
   background-color: #fff;
 }
@@ -320,6 +354,11 @@ a {
 
 header.scrol {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.default_content header.scro {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
 }
 
 .scrol:hover, .scrol:hover li > ul {
@@ -333,6 +372,11 @@ header.scrol {
 
 .main_menu a {
   color: white;
+  transition: color 0.3s ease;
+}
+
+.default_content .main_menu a {
+  color: #3399cc;
   transition: color 0.3s ease;
 }
 
@@ -708,9 +752,16 @@ main, footer {
 /* === End of Main CSS === */
 /* === Footer CSS === */
 footer {
+  width: 100%;
   background: #003366;
-  padding: 20px 0;
+  padding-top: 20px;
   color: #3399cc;
+}
+
+.default_content footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .footer_wrapper {
@@ -806,6 +857,32 @@ display: none;
   text-align: center;
   font-size: .8rem;
   font-weight: 300;
+}
+
+/*Formspree callback form validation*/
+.form__field {
+  margin-bottom: 10px;
+}
+
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
 }
 
 /*MailChimp signup form CSS , including CDN classic-10_7.css*/
@@ -1012,6 +1089,11 @@ display: none;
 
 #mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
   border: 2px solid #e85c41;
+}
+
+/*About page*/
+.about {
+  padding-top: 80px;
 }
 
 @media only screen and (max-width: 1240px) {

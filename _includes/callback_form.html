@@ -1,0 +1,43 @@
+<style>
+    .form__field {
+        margin-bottom: 10px;
+    }
+
+    .form__error {
+        color: red;
+        text-align: left;
+        font-size: 12px;
+        display: block;
+        margin-top: 3px;
+        display: none;
+    }
+
+    input:valid:not(:placeholder-shown) {
+        border-color: green;
+    }
+
+    input:invalid:not(:placeholder-shown) {
+        border-color: red;
+    }
+    input:invalid:not(:placeholder-shown) + .form__error {
+        display: block;
+    }
+</style>
+<div class="callback_form">
+    <form id="formaction" class="callback_form" method="POST">
+        <!--action="//formspree.io/kotelco@ukr.net"-->
+        <input type="text" name="name" placeholder="Ваше имя"><br/>
+        <div class="form__field">
+            <input type="tel" name="phone" placeholder="Ваш номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                  ><br/>
+            <span class="form__error">Это поле должно содержать телефон в формате +380671234567</span>
+        </div>
+        <input type="hidden" name="_next" value="thanks.html">
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="submit" value="Перезвоните мне"/>
+    </form>
+    <script>
+        var contactform =  document.getElementById('formaction');
+        contactform.setAttribute('action', '//formspree.io/' + 'kotelco' + '@' + 'ukr' + '.' + 'net');
+    </script>
+</div>

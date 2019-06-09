@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>КотелКо-Отопительные котлы украинского производителя</title>
 
-    <link rel="stylesheet" href="style.css" class="css">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="/style.css" class="css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <!--<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">-->
@@ -29,14 +29,14 @@
             <span></span>
             <span></span>
             <section class="mobile_logo">
-                <a href="" title="">
-                    <img src="images/logo_new_colors_noUrl.png" alt="Ruslan logo">
+                <a href="/" title="">
+                    <img src="/images/logo_new_colors_noUrl.png" alt="Ruslan logo">
                 </a>
             </section>
             <menu id="mobile_nav">
                 <ul class="mobile_menu">
-                    <li><a href="#">Главная</a></li>
-                    <li class="header_production"><a href="#production">Продукция</a>
+                    <li><a href="/">Главная</a></li>
+                    <li class="header_production"><a href="/#production">Продукция</a>
                         <ul class="mobile_sub-menu">
                             <li class="header_wood"><a href="">Твердотопливные котлы</a>
                                 <ul class="mobile_sub-menu ">
@@ -57,9 +57,9 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="">Предприятие</a></li>
-                    <li><a href="">Оплата и доставка</a></li>
-                    <li><a href="">Гарантия</a></li>
+                    <li><a href="/#about">О нас</a></li>
+                    <li><a href="/delivery">Доставка</a></li>
+                    <li><a href="/service">Гарантия</a></li>
                     <li><a href="#contact">Контакты</a></li>
                 </ul>
 
@@ -68,14 +68,14 @@
         <section class="nav_primary">
             <section class="header_inner">
                 <section class="logo">
-                    <a href="#" title="">
-                        <img src="images/logo_new_colors_noUrl.png" alt="Ruslan_logo">
+                    <a href="/" title="">
+                        <img src="/images/logo_new_colors_noUrl.png" alt="Ruslan_logo">
                     </a>
                 </section>
                 <menu>
                     <ul class="main_menu scro">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#production">Продукция</a>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/#production">Продукция</a>
                             <ul class="sub-menu scro">
                                 <li class="header_wood"><a href="">Твердотопливные&nbsp;котлы</a>
                                     <ul class="sub-menu scro">
@@ -94,9 +94,9 @@
                                 <li><a href="">Печи-буржуйки</a></li>
                             </ul>
                         </li>
-                        <li><a href="#about">О нас</a></li>
-                        <li><a href="">Доставка</a></li>
-                        <li><a href="">Гарантия</a></li>
+                        <li><a href="/#about">О нас</a></li>
+                        <li><a href="/delivery">Доставка</a></li>
+                        <li><a href="/service">Гарантия</a></li>
                         <li><a href="#contact">Контакты</a></li>
                     </ul>
                 </menu>
@@ -105,7 +105,7 @@
     </nav>
 </header>
 <div class="wrapper" id="wrapper">
-          <div class="hero parallax">
+        <div class="hero parallax">
         <div role="banner" id="hero_text">
             <h1 class="hero_text"><span>THERMO-</span>PROSKURIV <img src="images/logo_proskuriv_600.png"/></h1>
             <h2 class="hero_text">Отопительные котлы высокого качества от украинского производителя!</h2>
@@ -138,7 +138,7 @@
 
                 <div class="production_item el_banner"><a href="#">Электрические<br>котлы</a></div>
                 <div class="production_item pech_banner"><a href="#">Отопительные<br>печи</a></div>
-                <div class="production_item delivery_banner"><a href="#">Доставка по всей<br>Украине</a></div>
+                <div class="production_item delivery_banner"><a href="/delivery/">Доставка по всей<br>Украине</a></div>
                 <div class="production_item main_banner"><p>Лучшее качество!</p>
                     <p>Лучшие цены!</p>
                     <p><img src="images/logo_proskuriv_600.png" height="84" width="250"/></p></div>
@@ -157,21 +157,56 @@
                         </div>
                         <div class="callback_now">
                             <p>Звоните прямо сейчас</p>
-                            <p>0800-55555555</p>
+                            <p>+38(068)0854088</p>
                             <p>или оставьте номер телефона<br/>и мы вам перезвоним</p>
                         </div>
-                        <div class="callback_form">
-                            <form class="callback_form" action="//formspree.io/kotelco@ukr.net"
-                                  method="POST">
 
-                                <input type="text" name="name" placeholder="Ваше имя"><br/>
-                                <input type="tel" required name="phone" placeholder="Ваш номер телефона"><br/>
-                                <input type="submit" value="Перезвоните мне"/>
-                            </form>
-                        </div>
+                        <style>
+    .form__field {
+        margin-bottom: 10px;
+    }
+
+    .form__error {
+        color: red;
+        text-align: left;
+        font-size: 12px;
+        display: block;
+        margin-top: 3px;
+        display: none;
+    }
+
+    input:valid:not(:placeholder-shown) {
+        border-color: green;
+    }
+
+    input:invalid:not(:placeholder-shown) {
+        border-color: red;
+    }
+    input:invalid:not(:placeholder-shown) + .form__error {
+        display: block;
+    }
+</style>
+<div class="callback_form">
+    <form id="formaction" class="callback_form" method="POST">
+        <!--action="//formspree.io/kotelco@ukr.net"-->
+        <input type="text" name="name" placeholder="Ваше имя"><br/>
+        <div class="form__field">
+            <input type="tel" name="phone" placeholder="Ваш номер телефона" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                  ><br/>
+            <span class="form__error">Это поле должно содержать телефон в формате +380671234567</span>
+        </div>
+        <input type="hidden" name="_next" value="thanks.html">
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="submit" value="Перезвоните мне"/>
+    </form>
+    <script>
+        var contactform =  document.getElementById('formaction');
+        contactform.setAttribute('action', '//formspree.io/' + 'kotelco' + '@' + 'ukr' + '.' + 'net');
+    </script>
+</div>
 
                     </div>
-                    <p>За 15-летнюю историю существования предприятия "Проскуров-Термо" объёмы проиводства выросли во много раз, но главным пунктом стратегии развития всегда оставалось высокое качество, эффективность и безопасность продукции. Именно это и есть причиной высокой популярности котлов "Проскуров" в Хмельницкой области и на всем украинском рынке. Ежегодно мы продаём более 2000 отопительных котлов, и главные причины такой популярности – это:</p>
+                    <p>За 15-летнюю историю существования предприятия "Проскуров-Термо" объёмы производства выросли во много раз, но главным пунктом стратегии развития всегда оставалось высокое качество, эффективность и безопасность продукции. Именно это и есть причиной высокой популярности котлов "Проскуров" в Хмельницкой области и на всем украинском рынке. Ежегодно мы продаём более 2000 отопительных агрегатов, и главные причины такой популярности – это:</p>
                     <ul>
                         <li>Высокий срок службы – прогрессивные технологии производства позволяют производить качественное отопительное оборудование, которое прослужит не менее 20 лет;</li>
                         <li>Широкий модельный ряд – мы постоянно трудимся на созданием новых моделей дровяных и газовых котлов, отвечающих требованиям потребителей;
@@ -180,19 +215,17 @@
                     </ul>
 
                     <img src="images/intro_photo_1.jpg" alt=""/>
-                    <p>Отопительные аппараты "Проскуров-Термо" – это проверенные годами надежные конструкции и
-                        эффективные решения, и в тоже время применение современных комплектующих и материалов позволяет
-                        установить низкую цену на отопительные котлы и добиться высокой экономичности отопления.</p>
-                    <p>Предприятие выпускает широкую линейку отопительных устройств. На сегодняшний день разработано 24 модели отопительных котлов мощностью от 7 до 100 кВт. Модельный ряд котлов "Проскуров" представлен тремя типами отопительного оборудования:</p>
+                    <p>Отопительные аппараты "Проскуров-Термо" – это проверенные годами надежные конструкции и эффективные решения, и в то же время применение современных комплектующих и материалов позволяет установить низкую цену на отопительные устройства и добиться высокой экономичности отопления.</p>
+                    <p>Предприятие выпускает широкую линейку нагревательных устройств. На сегодняшний день разработано 24 модели отопительных котлов мощностью от 7 до 100 кВт. Модельный ряд котлов "Проскуров" представлен тремя типами отопительного оборудования:</p>
                     <ul>
-                        <li>Газовые котлы – напольные дымоходные и парапетные с закрытой камерой сгорания;</li>
-                        <li>Котлы на твердом топливе (дрова или уголь) - атмосферного горения и с вентиляторным
-                            поддувом; также есть модели с варочной плитой;
+                        <li>Газовые котлы – напольные котлы с дымоходом и парапетные с закрытой камерой сгорания;</li>
+                        <li>Котлы на твердом топливе (дрова или уголь) – традиционного атмосферного горения и длительного горения с вентилятором; также есть модели с варочной плитой;
                         </li>
-                        <li>Электрические котлы;</li>
+                        <li>Электрические котлы – отличное решение для периодического отопления помещений и поддержания плюсовой температуры в системе отопления;</li>
+                        <li>Дровяные печи – так называемые «буржуйки», проверенные временем конструкции для воздушного отопления технических помещений.</li>
                     </ul>
 
-                    <p>Вся продукция сертифицирована в соответствии с Государственным стандартом Украины, пожарными и санитарными нормами. А самое главное – мы даём 5-ти летнюю полную гарантию на отопительные котлы «Проскуров».</p>
+                    <p>Вся продукция сертифицирована в соответствии с Государственным стандартом Украины, пожарными и санитарными нормами. А самое главное – мы даём 5 лет полной гарантии на отопительные агрегаты «Проскуров».</p>
                 </article>
             </section>
         </div>
@@ -214,7 +247,7 @@
                             циркуляционный
                             насос; разработана документация и освоено производство аппаратов для отопления и горячего
                             водоснабжения газовых бытовых дымоходных серии АОГВ мощностью от 10 до 30 кВт (в 6-ти
-                            выполнениях)...<a href="about.html">Читать далее</a>
+                            выполнениях)...<a href="/about/">Читать далее</a>
                     </article>
                 </section>
             </div>
@@ -269,20 +302,20 @@
 
 
 
-<footer>
+    <footer>
     <div id="contact" class="footer_wrapper">
         <div class="contacts footer_cell">
-            <div class="footer_logo"><a href="#"><img src="images/logo_new_colors_noUrl.png"/></a></div>
-            <p class="footer_phone">+380675555555</p>
+            <div class="footer_logo"><a href="#"><img src="/images/logo_new_colors_noUrl.png"/></a></div>
+            <p class="footer_phone">+38(068)0854088</p>
             <p class="footer_mail">kotelco@ukr.net</p>
             <ul class="social">
-                <li><a href="https://www.facebook.com"><img src="images/icon-facebook.png"
+                <li><a href="https://www.facebook.com"><img src="/images/icon-facebook.png"
                                                             alt="Наша страничка в Фейсбук"></a></li>
-                <li><a href="https://www.instagram.com"><img src="images/icon-instagram.png"
+                <li><a href="https://www.instagram.com"><img src="/images/icon-instagram.png"
                                                              alt="Наша страничка в Инстаграм"></a></li>
-                <li><a href="https://www.facebook.com"><img src="images/icon-facebook-messenger.png"
+                <li><a href="https://www.facebook.com"><img src="/images/icon-facebook-messenger.png"
                                                             alt="Нашишите нам в Фейсбук мессенджер"></a></li>
-                <li><a href="https://www.facebook.com"><img src="images/icon-viber.png" alt="Нашишите нам в Вайбер"></a>
+                <li><a href="https://www.facebook.com"><img src="/images/icon-viber.png" alt="Нашишите нам в Вайбер"></a>
                 </li>
             </ul>
         </div>
@@ -341,7 +374,7 @@
 
 </footer>
 </div>
-    <!--
+<!--
 -->
 
 <script src="js/custom.js"></script>

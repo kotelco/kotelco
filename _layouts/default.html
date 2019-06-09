@@ -6,14 +6,14 @@
 {% include head.html %}
 <body>
 
-{% include header.html %}
-<div class="wrapper" id="wrapper">
-      {{ content }}
+<div class="default_layout">
+      <div class="default_content">
+            {% include header.html %}
 
-{% include footer.html %}
-</div>
-    <!--{% include analytics.html %}-->
+            {{ content }}
 
-<script src="js/custom.js"></script>
+            <!--{% include analytics.html %}-->
+      </div>
+      {% include footer.html %}</div>
 </body>
 </html>
