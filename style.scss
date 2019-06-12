@@ -23,6 +23,10 @@ html, body{
   scroll-behavior: smooth;
 }
 
+body.no_parallax, html.no_parallax {
+  overflow-y: auto;
+}
+
 .default_layout {
   display: flex;
   flex-direction: column;
@@ -38,7 +42,7 @@ html, body{
 .default_layout:after {
     content: "";
     background: $orange url(/images/warm-house.jpg) repeat-y center bottom;
-    opacity: 0.3;
+    opacity: 0.2;
     top: 0;
     left: 0;
     bottom: 0;
@@ -773,6 +777,8 @@ display: none;
 text-align: center;
 font-size: .8rem;
 font-weight: 300;
+margin: 0;
+  padding-bottom: 1rem;
 }
 
 /*Formspree callback form validation*/
@@ -857,6 +863,7 @@ input:invalid:not(:placeholder-shown) + .form__error {
 .about {
   padding-top: 80px;
 }
+
 
 @import "media";
 
