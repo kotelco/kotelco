@@ -1,0 +1,47 @@
+$darkGrey: #0f0f0f;
+$blue:#3399cc;
+$orange:#ff6633;
+$grey:#5E5E5E;
+$greyer:#515151;
+$darkblue:#003366;
+$lightGrey:#eee;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: $lightGrey;
+}
+
+td {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+height: 2rem;
+
+p{
+  margin: 0.5rem 0;
+}
+}
+th {
+  background: $greyer;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  p{
+    text-align: center;
+  }
+}
+
+tr td:first-child{
+  text-align: left;
+padding-left: 1.5rem;
+font-weight: 700;
+}
+
+tr th:first-child{
+width: 28%;
+}

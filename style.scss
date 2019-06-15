@@ -7,6 +7,7 @@ $orange:#ff6633;
 $grey:#5E5E5E;
 $greyer:#515151;
 $darkblue:#003366;
+$lightGrey:#eeeeee;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic');
 @import "hamburger";
@@ -27,7 +28,7 @@ body.no_parallax, html.no_parallax {
   overflow-y: auto;
 }
 
-.default_layout {
+#default_layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -39,9 +40,13 @@ body.no_parallax, html.no_parallax {
   }
 }
 
-.default_layout:after {
+/*#default_layout {
+  background-color: rgba(255,102,51,.2);
+}*/
+
+/*#default_layout:after {
     content: "";
-    background: $orange url(/images/warm-house.jpg) repeat-y center bottom;
+    background: $orange no-repeat;
     opacity: 0.2;
     top: 0;
     left: 0;
@@ -49,7 +54,7 @@ body.no_parallax, html.no_parallax {
     right: 0;
     position: absolute;
     z-index: -1;
-}
+}*/
 
 h1 {
   font-family: "Roboto", "Arial", sans-serif;
@@ -219,24 +224,28 @@ width: 100%;
   align-items: center;
   padding-top: .5rem;
 padding-right: 1rem;
+}
 
+.main_menu.scrol {
+  box-shadow: none;
 }
 
 .main_menu:hover, .main_menu:hover li>ul{
    background-color: rgba(255,255,255,0.5);
  }
 
-.default_content .sub-menu {
+.no_parallax .sub-menu {
   background-color: rgba(255,255,255,1);
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.default_content .main_menu:hover li>ul{
+.no_parallax .main_menu:hover li>ul{
   background-color: rgba(255,255,255,1);
 }
 
 .scrol{
   background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
   li a{
     color: black;
   }
@@ -246,7 +255,7 @@ header.scrol{
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.default_content header.scro{
+.no_parallax header.scro, .no_parallax header.sub-menu {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   background-color: #fff;
 }
@@ -264,6 +273,11 @@ header.scrol{
 {
   color: white;
   transition: color 0.3s ease;
+}
+
+.no_parallax .main_menu a
+{
+  color: $darkGrey;
 }
 
 .default_content .main_menu a
@@ -864,6 +878,46 @@ input:invalid:not(:placeholder-shown) + .form__error {
   padding-top: 80px;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(255,102,51,.2);
+}
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: $lightGrey;
+}
+
+td {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 2rem;
+
+  p{
+    margin: 0.5rem 0;
+  }
+}
+th {
+  background: $greyer;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+  p{
+    text-align: center;
+  }
+}
+
+tr td:first-child{
+  text-align: left;
+  padding-left: 1.5rem;
+  font-weight: 700;
+}
+
+tr th:first-child{
+  width: 28%;
+}
 
 @import "media";
 

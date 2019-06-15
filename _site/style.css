@@ -144,30 +144,32 @@ body.no_parallax, html.no_parallax {
   overflow-y: auto;
 }
 
-.default_layout {
+#default_layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-.default_layout footer {
+#default_layout footer {
   margin-top: auto;
 }
-.default_layout .default_content {
+#default_layout .default_content {
   padding-top: 100px;
 }
 
-.default_layout:after {
-  content: "";
-  background: #ff6633 url(/images/warm-house.jpg) repeat-y center bottom;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
+/*#default_layout {
+  background-color: rgba(255,102,51,.2);
+}*/
+/*#default_layout:after {
+    content: "";
+    background: $orange no-repeat;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}*/
 h1 {
   font-family: "Roboto", "Arial", sans-serif;
   text-align: center;
@@ -336,21 +338,26 @@ a {
   padding-right: 1rem;
 }
 
+.main_menu.scrol {
+  box-shadow: none;
+}
+
 .main_menu:hover, .main_menu:hover li > ul {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.default_content .sub-menu {
+.no_parallax .sub-menu {
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.default_content .main_menu:hover li > ul {
+.no_parallax .main_menu:hover li > ul {
   background-color: white;
 }
 
 .scrol {
   background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .scrol li a {
   color: black;
@@ -360,7 +367,7 @@ header.scrol {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.default_content header.scro {
+.no_parallax header.scro, .no_parallax header.sub-menu {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: #fff;
 }
@@ -377,6 +384,10 @@ header.scrol {
 .main_menu a {
   color: white;
   transition: color 0.3s ease;
+}
+
+.no_parallax .main_menu a {
+  color: #0f0f0f;
 }
 
 .default_content .main_menu a {
@@ -1100,6 +1111,48 @@ input:invalid:not(:placeholder-shown) + .form__error {
 /*About page*/
 .about {
   padding-top: 80px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(255, 102, 51, 0.2);
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eeeeee;
+}
+
+td {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+  height: 2rem;
+}
+td p {
+  margin: 0.5rem 0;
+}
+
+th {
+  background: #515151;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+th p {
+  text-align: center;
+}
+
+tr td:first-child {
+  text-align: left;
+  padding-left: 1.5rem;
+  font-weight: 700;
+}
+
+tr th:first-child {
+  width: 28%;
 }
 
 @media only screen and (max-width: 1240px) {

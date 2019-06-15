@@ -40,4 +40,12 @@
 <url>
 <loc>http://localhost:4000/thanks/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/pages/wood_boilers/tverdotoplivnye_atmosfernye/aotv-n.html</loc>
+<lastmod>2019-06-14T16:47:15+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/pages/wood_boilers/tverdotoplivnye_atmosfernye/table_template.html</loc>
+<lastmod>2019-06-14T23:39:00+03:00</lastmod>
+</url>
 </urlset>
