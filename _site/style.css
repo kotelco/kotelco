@@ -1144,6 +1144,7 @@ th {
   font-weight: bold;
   text-align: center;
   border: 1px solid #ccc;
+  height: 3rem;
 }
 th p {
   text-align: center;
