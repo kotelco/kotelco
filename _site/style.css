@@ -343,7 +343,11 @@ a {
 }
 
 .main_menu:hover, .main_menu:hover li > ul {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(75, 75, 75, 0.9);
+}
+
+.no_parallax .main_menu:hover {
+  background-color: white;
 }
 
 .no_parallax .sub-menu {
@@ -1128,7 +1132,7 @@ td {
   padding: 6px;
   border: 1px solid #ccc;
   text-align: center;
-  height: 2rem;
+  height: 3rem;
 }
 td p {
   margin: 0.5rem 0;
