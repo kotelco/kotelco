@@ -478,7 +478,7 @@ main, footer {
   visibility: hidden;
 }
 
-.main_wrapper, .footer_wrapper {
+.main_wrapper, .footer_wrapper, .default_content {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -1158,6 +1158,32 @@ tr td:first-child {
 
 tr th:first-child {
   width: 28%;
+}
+
+.specs_image_25 {
+  max-width: 25%;
+}
+
+.specs_image_35 {
+  max-width: 35%;
+}
+
+.left {
+  float: left;
+}
+
+.default_content > p, .default_content li {
+  font-weight: 300;
+}
+.default_content ul {
+  transform: translateX(4rem);
+}
+.default_content li {
+  list-style: circle;
+  padding-right: 4rem;
+}
+.default_content img {
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 1240px) {

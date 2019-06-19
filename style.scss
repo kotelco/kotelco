@@ -371,7 +371,7 @@ i {
 }
 
 
-.main_wrapper, .footer_wrapper {
+.main_wrapper, .footer_wrapper, .default_content {
   max-width: 1220px;
   margin: 0 auto;
 padding: 0 1rem;
@@ -922,6 +922,35 @@ tr td:first-child{
 
 tr th:first-child{
   width: 28%;
+}
+
+
+.specs_image_25 {
+  max-width: 25%;
+}
+
+.specs_image_35 {
+  max-width: 35%;
+}
+
+.left {
+  float: left;
+}
+
+.default_content {
+  >p,li {
+    font-weight: 300;
+  }
+  ul {
+    transform: translateX(4rem);
+  }
+  li {
+    list-style: circle;
+    padding-right: 4rem;
+  }
+  img {
+    padding: 1rem;
+  }
 }
 
 @import "media";
