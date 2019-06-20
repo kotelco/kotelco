@@ -937,6 +937,10 @@ tr th:first-child{
   float: left;
 }
 
+.right {
+  float: right;
+}
+
 .default_content {
   >p,li {
     font-weight: 300;
@@ -952,6 +956,24 @@ tr th:first-child{
     padding: 1rem;
   }
 }
+
+.specs_header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .specs_header_img_wrap {
+    max-width: 25%;
+  }
+  img {
+  width: 100%;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+
+ }
+
+
 
 @import "media";
 

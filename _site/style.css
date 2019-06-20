@@ -1172,6 +1172,10 @@ tr th:first-child {
   float: left;
 }
 
+.right {
+  float: right;
+}
+
 .default_content > p, .default_content li {
   font-weight: 300;
 }
@@ -1184,6 +1188,21 @@ tr th:first-child {
 }
 .default_content img {
   padding: 1rem;
+}
+
+.specs_header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.specs_header_wrapper .specs_header_img_wrap {
+  max-width: 25%;
+}
+.specs_header_wrapper img {
+  width: 100%;
+}
+.specs_header_wrapper h3 {
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1240px) {

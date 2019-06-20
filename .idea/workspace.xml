@@ -5,15 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8441d0c0-6924-427a-a0e6-bf1b40361be9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/jquery.slim.min.3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modal_image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/Hello-World/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/Hello-World/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/delivery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/delivery/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/elektrokotly.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/elektrokotly.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/gas-dymohodnye.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gas-dymohodnye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/gas-parapetnye.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gas-parapetnye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/Kotly-na-drovah-Khmelnitskiy-zavod-Proskurov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/kotel-proskurov-aotv-p-shema-600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/kotly-tverdotoplivnye-atmosfernye.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kotly-tverdotoplivnye-atmosfernye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/pages/wood_boilers/tverdotoplivnye_atmosfernye/aotv-n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/pechi-na-drovax.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/pechi-na-drovax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/s-varochnoy-plitoy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/s-varochnoy-plitoy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/service/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/elektrokotly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elektrokotly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/.sass-cache/972aa36e69aa3f932db99d2e177399e3f2ff9fdd/table_template.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/aotv-n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/thanks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/thanks/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tverdotoplivnye_dlitelnogo_gorenia.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tverdotoplivnye_dlitelnogo_gorenia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Kotly-na-drovah-Khmelnitskiy-zavod-Proskurov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/kotel-proskurov-aotv-p-shema-600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
@@ -30,8 +47,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+                <state relative-caret-position="391">
+                  <caret line="75" column="129" selection-start-line="75" selection-start-column="129" selection-end-line="75" selection-end-column="129" />
                 </state>
               </provider>
             </entry>
@@ -39,19 +56,31 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-119">
-                  <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+                <state relative-caret-position="425">
+                  <caret line="236" column="74" selection-start-line="236" selection-start-column="74" selection-end-line="236" selection-end-column="74" />
                   <folding>
-                    <element signature="e#611#617#0" expanded="true" />
-                    <element signature="e#616#622#0" expanded="true" />
-                    <element signature="e#623#629#0" expanded="true" />
-                    <element signature="e#731#737#0" expanded="true" />
-                    <element signature="e#736#742#0" expanded="true" />
-                    <element signature="e#743#749#0" expanded="true" />
-                    <element signature="e#844#850#0" expanded="true" />
-                    <element signature="e#832#838#0" expanded="true" />
-                    <element signature="e#839#845#0" expanded="true" />
+                    <element signature="n#table#0;n#!!top" />
+                    <element signature="n#table#1;n#!!top" />
+                    <element signature="n#table#2;n#!!top" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/temp.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -63,8 +92,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="943" column="6" selection-start-line="943" selection-start-column="6" selection-end-line="943" selection-end-column="6" />
+                <state relative-caret-position="509">
+                  <caret line="975" selection-start-line="975" selection-end-line="975" />
                 </state>
               </provider>
             </entry>
@@ -78,6 +107,15 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/modal_images_jquery.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -86,6 +124,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -111,6 +150,7 @@
       <find>&lt;/span&gt;</find>
       <find>colspan=&quot;4&quot;</find>
       <find>clear</find>
+      <find>test</find>
     </findStrings>
     <replaceStrings>
       <replace>default_content</replace>
@@ -159,11 +199,9 @@
         <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/table_template.html" />
         <option value="$PROJECT_DIR$/pages/wood_boilers/s-varochnoy-plitoy/index.html" />
         <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_dlitelnogo_gorenia/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/pages/gas_boilers/table_template.html" />
         <option value="$PROJECT_DIR$/pages/gas_boilers/gas-dymohodnye/index.html" />
         <option value="$PROJECT_DIR$/pages/gas_boilers/aogv_template.html" />
@@ -171,12 +209,18 @@
         <option value="$PROJECT_DIR$/pages/pechi-na-drovah/index.html" />
         <option value="$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html" />
         <option value="$PROJECT_DIR$/pages/elektrokotly/index.html" />
-        <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/modal_image.js" />
+        <option value="$PROJECT_DIR$/js/temp.html" />
+        <option value="$PROJECT_DIR$/js/jquery.slim.min.3.4.1.js" />
+        <option value="$PROJECT_DIR$/js/modal_images_jquery.js" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/style.scss" />
+        <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="23" />
     <option name="y" value="-16" />
     <option name="width" value="1918" />
@@ -187,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +246,7 @@
             <path>
               <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -266,6 +309,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,18 +323,18 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\wood_boilers" />
-      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\pechi-na-drovah" />
-      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\gas_boilers" />
-      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\js\not_used" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\js" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\elektrokotly" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\gas_boilers" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\wood_boilers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\wood_boilers" />
+      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\pechi-na-drovah" />
+      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\gas_boilers" />
+      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\js\not_used" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,7 +386,8 @@
       <workItem from="1560279190892" duration="4572000" />
       <workItem from="1560327686373" duration="28064000" />
       <workItem from="1560767306005" duration="10822000" />
-      <workItem from="1560954861790" duration="3645000" />
+      <workItem from="1560954861790" duration="3874000" />
+      <workItem from="1561013730347" duration="10163000" />
     </task>
     <task id="LOCAL-00001" summary="This is test of VCS">
       <created>1559392938290</created>
@@ -376,11 +421,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86908000" />
+    <option name="totallyTimeSpent" value="97300000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -395,7 +439,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32286024" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -474,32 +518,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2nd This is test of VCS" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="5" column="240" lean-forward="true" selection-start-line="5" selection-start-column="240" selection-end-line="5" selection-end-column="240" />
-          <folding>
-            <element signature="e#456#462#0" expanded="true" />
-            <element signature="e#471#477#0" expanded="true" />
-            <element signature="e#885#889#0" expanded="true" />
-            <element signature="e#890#894#0" expanded="true" />
-            <element signature="e#1027#1031#0" expanded="true" />
-            <element signature="e#1033#1037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/Hello-World/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/style_orig.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/js/custom.js" />
     <entry file="file://$PROJECT_DIR$/_posts/2014-3-3-Hello-World.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -740,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -761,13 +772,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/aotv-n.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/aotv-n.html" />
     <entry file="file://$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -809,10 +814,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/modal_image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="84" selection-start-line="27" selection-start-column="84" selection-end-line="27" selection-end-column="84" />
+        <state relative-caret-position="391">
+          <caret line="75" column="129" selection-start-line="75" selection-start-column="129" selection-end-line="75" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.slim.min.3.4.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="1" column="88059" selection-start-line="1" selection-start-column="88059" selection-end-line="1" selection-end-column="88059" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modal_images_jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -823,28 +866,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html">
+    <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#611#617#0" expanded="true" />
-            <element signature="e#616#622#0" expanded="true" />
-            <element signature="e#623#629#0" expanded="true" />
-            <element signature="e#731#737#0" expanded="true" />
-            <element signature="e#736#742#0" expanded="true" />
-            <element signature="e#743#749#0" expanded="true" />
-            <element signature="e#844#850#0" expanded="true" />
-            <element signature="e#832#838#0" expanded="true" />
-            <element signature="e#839#845#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="509">
+          <caret line="975" selection-start-line="975" selection-end-line="975" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
+    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="943" column="6" selection-start-line="943" selection-start-column="6" selection-end-line="943" selection-end-column="6" />
+        <state relative-caret-position="425">
+          <caret line="236" column="74" selection-start-line="236" selection-start-column="74" selection-end-line="236" selection-end-column="74" />
+          <folding>
+            <element signature="n#table#0;n#!!top" />
+            <element signature="n#table#1;n#!!top" />
+            <element signature="n#table#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
