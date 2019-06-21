@@ -659,31 +659,36 @@ main, footer {
 }
 
 .callback_ask p {
-  font-size: 1.5rem;
-  line-height: 4rem;
+  font-size: 1.8rem;
+  line-height: 4.2rem;
 }
 
-.callback_now p {
+div.callback_now {
+  padding: 4.2rem 10px;
+}
+div.callback_now p {
   line-height: 4rem;
   text-align: center;
 }
-.callback_now p:first-child {
+div.callback_now p:first-child {
   font-size: 1.7rem;
 }
-.callback_now p:nth-child(2) {
-  font-size: 2rem;
+div.callback_now p:nth-child(2) {
+  font-size: 1.8rem;
   background: #ff6633;
   color: white;
   border: 2px #ff6633 solid;
   border-radius: 10px;
+  line-height: 3rem;
 }
-.callback_now p:last-child {
+div.callback_now p:last-child {
   font-size: 1.2rem;
   line-height: 2rem;
 }
 
-.callback_form {
-  flex-grow: .6;
+div.callback_form {
+  flex-grow: .7;
+  padding-top: 5rem;
 }
 
 .callback_form input {
@@ -795,10 +800,14 @@ footer {
 
 .social li {
   display: inline-block;
+  max-width: 20%;
 }
 .social li a {
   display: block;
   height: 100%;
+}
+.social li a img {
+  width: 100%;
 }
 
 .footer_phone, .footer_mail {
@@ -1121,6 +1130,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   background-color: rgba(255, 102, 51, 0.2);
+  padding-top: 2rem;
 }
 
 /* Zebra striping */
