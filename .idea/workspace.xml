@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8441d0c0-6924-427a-a0e6-bf1b40361be9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/colors300.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/colors300.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +18,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.48938826">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+                <state relative-caret-position="-34">
+                  <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -39,7 +36,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/temp.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
@@ -52,28 +49,10 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="498">
-                  <caret line="158" column="14" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_site/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1802">
-                  <caret line="349" selection-start-line="349" selection-end-line="349" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_sass/_media.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="56">
+                <state relative-caret-position="246">
                   <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
                 </state>
               </provider>
@@ -180,14 +159,15 @@
         <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/_sass/_media.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style_static.scss" />
+        <option value="$PROJECT_DIR$/style.scss" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -204,11 +184,6 @@
               <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -220,7 +195,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Ruby25-x64/bin/sass.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,11 +203,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GoogleDrive_Neo\kotelco.github.io" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\_sass" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\js" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages" />
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\elektrokotly" />
-      <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\gas_boilers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GoogleDrive_Neo\kotelco.github.io\pages\wood_boilers" />
@@ -299,7 +274,7 @@
       <workItem from="1561460927119" duration="936000" />
       <workItem from="1561626792839" duration="233000" />
       <workItem from="1561627118846" duration="378000" />
-      <workItem from="1561627962001" duration="4238000" />
+      <workItem from="1561627962001" duration="4878000" />
     </task>
     <task id="LOCAL-00001" summary="This is test of VCS">
       <created>1559392938290</created>
@@ -333,13 +308,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109482000" />
+    <option name="totallyTimeSpent" value="110122000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,7 +327,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3163597" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3163597" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -431,7 +406,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2nd This is test of VCS" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/about.html" />
     <entry file="file://$PROJECT_DIR$/_site/service.html" />
     <entry file="file://$PROJECT_DIR$/_site/delivery/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -745,6 +719,23 @@
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="131" column="39" lean-forward="true" selection-start-line="131" selection-start-column="39" selection-end-line="131" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style_static.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/temp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -759,24 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="158" column="14" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="246">
           <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>

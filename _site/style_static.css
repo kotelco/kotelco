@@ -137,23 +137,6 @@ html, body {
   margin: 0;
   font-size: 16px;
   overflow-y: hidden;
-  scroll-behavior: smooth;
-}
-
-body.no_parallax, html.no_parallax {
-  overflow-y: auto;
-}
-
-#default_layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-#default_layout footer {
-  margin-top: auto;
-}
-#default_layout .default_content {
-  padding-top: 100px;
 }
 
 h1 {
@@ -246,7 +229,6 @@ h2 {
   transform: translateZ(-1px) scale(2);
   z-index: -2;
   height: 100%;
-  width: auto;
 }
 
 #hero_logo {
@@ -326,30 +308,12 @@ a {
   padding-right: 1rem;
 }
 
-.main_menu.scrol {
-  box-shadow: none;
-}
-
 .main_menu:hover, .main_menu:hover li > ul {
-  background-color: rgba(75, 75, 75, 0.9);
-}
-
-.no_parallax .main_menu:hover {
-  background-color: white;
-}
-
-.no_parallax .sub-menu {
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.no_parallax .main_menu:hover li > ul {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .scrol {
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .scrol li a {
   color: black;
@@ -357,11 +321,6 @@ a {
 
 header.scrol {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.no_parallax header.scro, .no_parallax header.sub-menu {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
 }
 
 .scrol:hover, .scrol:hover li > ul {
@@ -375,15 +334,6 @@ header.scrol {
 
 .main_menu a {
   color: white;
-  transition: color 0.3s ease;
-}
-
-.no_parallax .main_menu a {
-  color: #0f0f0f;
-}
-
-.default_content .main_menu a {
-  color: #3399cc;
   transition: color 0.3s ease;
 }
 
@@ -466,7 +416,7 @@ main, footer {
   visibility: hidden;
 }
 
-.main_wrapper, .footer_wrapper, .default_content {
+.main_wrapper, .footer_wrapper {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -647,36 +597,31 @@ main, footer {
 }
 
 .callback_ask p {
-  font-size: 1.8rem;
-  line-height: 4.2rem;
+  font-size: 1.5rem;
+  line-height: 4rem;
 }
 
-div.callback_now {
-  padding: 4.2rem 10px;
-}
-div.callback_now p {
+.callback_now p {
   line-height: 4rem;
   text-align: center;
 }
-div.callback_now p:first-child {
+.callback_now p:first-child {
   font-size: 1.7rem;
 }
-div.callback_now p:nth-child(2) {
-  font-size: 1.8rem;
+.callback_now p:nth-child(2) {
+  font-size: 2rem;
   background: #ff6633;
   color: white;
   border: 2px #ff6633 solid;
   border-radius: 10px;
-  line-height: 3rem;
 }
-div.callback_now p:last-child {
+.callback_now p:last-child {
   font-size: 1.2rem;
   line-height: 2rem;
 }
 
-div.callback_form {
-  flex-grow: .7;
-  padding-top: 5rem;
+.callback_form {
+  flex-grow: .6;
 }
 
 .callback_form input {
@@ -764,16 +709,9 @@ div.callback_form {
 /* === End of Main CSS === */
 /* === Footer CSS === */
 footer {
-  width: 100%;
   background: #003366;
-  padding-top: 20px;
+  padding: 20px 0;
   color: #3399cc;
-}
-
-.default_content footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
 .footer_wrapper {
@@ -788,14 +726,10 @@ footer {
 
 .social li {
   display: inline-block;
-  max-width: 20%;
 }
 .social li a {
   display: block;
   height: 100%;
-}
-.social li a img {
-  width: 100%;
 }
 
 .footer_phone, .footer_mail {
@@ -845,7 +779,7 @@ footer {
 }
 
 .subscribe_form input {
-  line-height: 30px;
+  line-height: 50px;
   width: 100%;
   font-size: 1.2rem;
   padding-left: 2rem;
@@ -855,352 +789,25 @@ footer {
   font-weight: 500;
 }
 
-/*.subscribe_form .subscribe{
+.subscribe_form .subscribe {
   position: absolute;
   width: 50px;
   height: 50px;
   top: 4px;
   right: 15px;
   background: url(../images/send_icon_sm.png) no-repeat center center;
-background-size: contain;
+  background-size: contain;
   cursor: pointer;
+}
 
-}*/
-/*.subscribe_form input[type="submit"]{
-display: none;
-}*/
+.subscribe_form input[type="submit"] {
+  display: none;
+}
+
 .copy {
   text-align: center;
   font-size: .8rem;
   font-weight: 300;
-  margin: 0;
-  padding-bottom: 1rem;
-}
-
-/*Formspree callback form validation*/
-.form__field {
-  margin-bottom: 10px;
-}
-
-.form__error {
-  color: red;
-  text-align: left;
-  font-size: 12px;
-  display: block;
-  margin-top: 3px;
-  display: none;
-}
-
-input:valid:not(:placeholder-shown) {
-  border-color: green;
-}
-
-input:invalid:not(:placeholder-shown) {
-  border-color: red;
-}
-
-input:invalid:not(:placeholder-shown) + .form__error {
-  display: block;
-}
-
-/*MailChimp signup form CSS , including CDN classic-10_7.css*/
-#mc_embed_signup {
-  clear: left;
-}
-
-#mc_embed_signup input {
-  border: 1px solid #3399cc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-#mc_embed_signup input[type=checkbox] {
-  -webkit-appearance: checkbox;
-}
-
-#mc_embed_signup input[type=radio] {
-  -webkit-appearance: radio;
-}
-
-#mc_embed_signup input:focus {
-  border-color: #ff6633;
-}
-
-#mc_embed_signup .button {
-  position: absolute;
-  width: 40px;
-  top: 5px;
-  right: 15px;
-  background: url(../images/send_icon_sm.png) no-repeat center center;
-  background-size: contain;
-  cursor: pointer;
-  border: none;
-}
-
-#mc_embed_signup .button:hover {
-  transform: scale(1.1);
-}
-
-#mc_embed_signup .small-meta {
-  font-size: 11px;
-}
-
-#mc_embed_signup .nowrap {
-  white-space: nowrap;
-}
-
-#mc_embed_signup .size1of2 {
-  clear: none;
-  float: left;
-  display: inline-block;
-  width: 46%;
-  margin-right: 4%;
-}
-
-* html #mc_embed_signup .size1of2 {
-  margin-right: 2%;
-  /* Fix for IE6 double margins */
-}
-
-#mc_embed_signup .mc-field-group input {
-  display: block;
-  width: 100%;
-  padding: 8px 0;
-  text-indent: 2%;
-}
-
-#mc_embed_signup .mc-field-group select {
-  display: inline-block;
-  width: 99%;
-  padding: 5px 0;
-  margin-bottom: 2px;
-}
-
-#mc_embed_signup .datefield, #mc_embed_signup .phonefield-us {
-  padding: 5px 0;
-}
-
-#mc_embed_signup .datefield input, #mc_embed_signup .phonefield-us input {
-  display: inline;
-  width: 60px;
-  margin: 0 2px;
-  letter-spacing: 1px;
-  text-align: center;
-  padding: 5px 0 2px 0;
-}
-
-#mc_embed_signup .phonefield-us .phonearea input, #mc_embed_signup .phonefield-us .phonedetail1 input {
-  width: 40px;
-}
-
-#mc_embed_signup .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input {
-  width: 30px;
-}
-
-#mc_embed_signup .datefield label, #mc_embed_signup .phonefield-us label {
-  display: none;
-}
-
-#mc_embed_signup .indicates-required {
-  text-align: right;
-  font-size: 11px;
-  margin-right: 4%;
-}
-
-#mc_embed_signup .asterisk {
-  color: #e85c41;
-  font-size: 150%;
-  font-weight: normal;
-  position: relative;
-  top: 5px;
-}
-
-#mc_embed_signup .clear {
-  clear: both;
-}
-
-#mc_embed_signup .mc-field-group.input-group ul {
-  margin: 0;
-  padding: 5px 0;
-  list-style: none;
-}
-
-#mc_embed_signup .mc-field-group.input-group ul li {
-  display: block;
-  padding: 3px 0;
-  margin: 0;
-}
-
-#mc_embed_signup .mc-field-group.input-group label {
-  display: inline;
-}
-
-#mc_embed_signup .mc-field-group.input-group input {
-  display: inline;
-  width: auto;
-  border: none;
-}
-
-#mc_embed_signup div#mce-responses {
-  float: left;
-  top: -1.4em;
-  padding: 0em .5em 0em .5em;
-  overflow: hidden;
-  width: 90%;
-  margin: 0 5%;
-  clear: both;
-}
-
-#mc_embed_signup div.response {
-  margin: 1em 0;
-  padding: 1em .5em .5em 0;
-  font-weight: bold;
-  float: left;
-  top: -1.5em;
-  z-index: 1;
-  width: 80%;
-}
-
-#mc_embed_signup #mce-error-response {
-  display: none;
-}
-
-#mc_embed_signup #mce-success-response {
-  color: #529214;
-  display: none;
-}
-
-#mc_embed_signup label.error {
-  display: block;
-  float: none;
-  width: auto;
-  margin-left: 1.05em;
-  text-align: left;
-  padding: .5em 0;
-}
-
-#mc_embed_signup #num-subscribers {
-  font-size: 1.1em;
-}
-
-#mc_embed_signup #num-subscribers span {
-  padding: .5em;
-  border: 1px solid #ccc;
-  margin-right: .5em;
-  font-weight: bold;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-  display: inline-block;
-  margin: 2px 0 1em 0;
-  padding: 5px 10px;
-  background-color: rgba(255, 255, 255, 0.85);
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 14px;
-  font-weight: normal;
-  z-index: 1;
-  color: #e85c41;
-}
-
-#mc_embed_signup #mc-embedded-subscribe-form input.mce_inline_error {
-  border: 2px solid #e85c41;
-}
-
-/*About page*/
-.about {
-  padding-top: 80px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: rgba(255, 102, 51, 0.2);
-  padding-top: 2rem;
-}
-
-/* Zebra striping */
-tr:nth-of-type(odd) {
-  background: #eeeeee;
-}
-
-td {
-  padding: 6px;
-  border: 1px solid #ccc;
-  text-align: center;
-  height: 3rem;
-}
-td p {
-  margin: 0.5rem 0;
-}
-
-th {
-  background: #515151;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-  border: 1px solid #ccc;
-  height: 3rem;
-}
-th p {
-  text-align: center;
-}
-
-tr td:first-child {
-  text-align: left;
-  padding-left: 1.5rem;
-  font-weight: 700;
-}
-
-tr th:first-child {
-  width: 28%;
-}
-
-.specs_image_25 {
-  max-width: 25%;
-}
-
-.specs_image_35 {
-  max-width: 35%;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.default_content > p, .default_content li {
-  font-weight: 300;
-}
-.default_content ul {
-  transform: translateX(4rem);
-}
-.default_content li {
-  list-style: circle;
-  padding-right: 4rem;
-}
-.default_content img {
-  padding: 1rem;
-}
-
-.specs_header_wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.specs_header_wrapper .specs_header_img_wrap {
-  max-width: 25%;
-}
-.specs_header_wrapper img {
-  width: 100%;
-}
-.specs_header_wrapper h3 {
-  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1240px) {

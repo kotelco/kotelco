@@ -40,21 +40,7 @@ body.no_parallax, html.no_parallax {
   }
 }
 
-/*#default_layout {
-  background-color: rgba(255,102,51,.2);
-}*/
 
-/*#default_layout:after {
-    content: "";
-    background: $orange no-repeat;
-    opacity: 0.2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}*/
 
 h1 {
   font-family: "Roboto", "Arial", sans-serif;
@@ -117,10 +103,10 @@ h2{
       font-family: "Montserrat", "Arial", sans-serif;
     }
     img{
-      opacity: .7;
+      opacity: .6;
       display: block;
       margin: 0 auto;
-      width: 35%;
+      width: 25%;
       padding: 1rem 0;
     }
   }
@@ -129,23 +115,13 @@ h2{
 
     color:#fff;
   }
+   h1 {
+  padding-top: 9rem;
 }
-
-/*.hero::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-1px) scale(2);
-  background-size: 100%;
-  z-index: -1;
-  opacity: 0.8;
-  background: url('../images/first_frame.png') center center no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-}*/
+  h2{
+    padding-top: 15rem;
+  }
+}
 
 .wrapper video {
   position: absolute;
@@ -159,7 +135,6 @@ h2{
   width: auto;
 
 }
-
 
 #hero_logo{
   text-align: center;
