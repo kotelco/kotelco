@@ -131,9 +131,6 @@ h2{
   left: 0;
   transform: translateZ(-1px) scale(2);
   z-index: -2;
-  height: 100%;
-  width: auto;
-
 }
 
 #hero_logo{
@@ -376,13 +373,14 @@ main, footer {
 }
 
 .production_item{
-  position: relative;
+  /*position: relative;*/
   box-shadow: 5px 6px 7px $grey ;
   text-align: center;
-  vertical-align: bottom;
+  /*vertical-align: bottom;*/
   background: white no-repeat center;
-  background-size: contain;
+  /*background-size: contain;*/
   max-width: 280px;
+  background-position-y: 1rem;
 
 }
 
@@ -391,8 +389,9 @@ main, footer {
   align-items: flex-end;
   justify-content: center;
   min-height: 270px;
-  padding: 20px;
+  padding: 10px;
   color:$blue;
+
 }
 
 .production_item:hover > .prod_item_submenu_wrapper
@@ -449,26 +448,28 @@ main, footer {
 }
 
 .tverd_banner{
-  background-image: url("../images/main-tverd-boiler.jpg");
+  background-image: url("images/Kotly-na-drovah-Proskurov-kotelco.jpg");
 }
 
 .gas_banner{
-  background-image: url("../images/main-gas-boiler.jpg");
+  background-image: url("images/Kotly-gazovie-Proskurov-kotelco.jpg");
 }
 .el_banner{
-  background-image: url("../images/main-el-bolier.jpg");
+  background-image: url("images/Kotly-electro-Proskurov-kotelco.jpg");
 }
 
 .pech_banner{
-  background-image: url("../images/main-pech.jpg");
+  background-image: url("images/Pech-burzhuika-Proskurov-kotelco.jpg");
 }
 
 .delivery_banner{
-  background-image: url("../images/main-dostavka.jpg");
+  background-image: url("images/delivery-proskuriv-sm.jpg");
+  background-size: 90%;
 }
 
 .service_banner{
-  background-image: url("../images/main-warranty.jpg");
+  background-image: url("images/service-waranty-proskuriv-sm.jpg");
+  background-size: 90%;
 }
 
 .intro {
@@ -511,9 +512,8 @@ main, footer {
   bottom: 0;
   left: 0;
   transform: translateZ(-1px) scale(2);
-  background-size: 100%;
   z-index: -2;
-  background: url('../images/warm-house.jpg') center center no-repeat;
+  background: url('images/warm-house-proskuriv-sm.jpg') repeat-x;
 }
 
 .callback {

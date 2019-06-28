@@ -245,8 +245,6 @@ h2 {
   left: 0;
   transform: translateZ(-1px) scale(2);
   z-index: -2;
-  height: 100%;
-  width: auto;
 }
 
 #hero_logo {
@@ -481,13 +479,14 @@ main, footer {
 }
 
 .production_item {
-  position: relative;
+  /*position: relative;*/
   box-shadow: 5px 6px 7px #5E5E5E;
   text-align: center;
-  vertical-align: bottom;
+  /*vertical-align: bottom;*/
   background: white no-repeat center;
-  background-size: contain;
+  /*background-size: contain;*/
   max-width: 280px;
+  background-position-y: 1rem;
 }
 
 .production_item > a {
@@ -495,7 +494,7 @@ main, footer {
   align-items: flex-end;
   justify-content: center;
   min-height: 270px;
-  padding: 20px;
+  padding: 10px;
   color: #3399cc;
 }
 
@@ -547,27 +546,29 @@ main, footer {
 }
 
 .tverd_banner {
-  background-image: url("../images/main-tverd-boiler.jpg");
+  background-image: url("images/Kotly-na-drovah-Proskurov-kotelco.jpg");
 }
 
 .gas_banner {
-  background-image: url("../images/main-gas-boiler.jpg");
+  background-image: url("images/Kotly-gazovie-Proskurov-kotelco.jpg");
 }
 
 .el_banner {
-  background-image: url("../images/main-el-bolier.jpg");
+  background-image: url("images/Kotly-electro-Proskurov-kotelco.jpg");
 }
 
 .pech_banner {
-  background-image: url("../images/main-pech.jpg");
+  background-image: url("images/Pech-burzhuika-Proskurov-kotelco.jpg");
 }
 
 .delivery_banner {
-  background-image: url("../images/main-dostavka.jpg");
+  background-image: url("images/delivery-proskuriv-sm.jpg");
+  background-size: 90%;
 }
 
 .service_banner {
-  background-image: url("../images/main-warranty.jpg");
+  background-image: url("images/service-waranty-proskuriv-sm.jpg");
+  background-size: 90%;
 }
 
 .intro {
@@ -609,9 +610,8 @@ main, footer {
   bottom: 0;
   left: 0;
   transform: translateZ(-1px) scale(2);
-  background-size: 100%;
   z-index: -2;
-  background: url("../images/warm-house.jpg") center center no-repeat;
+  background: url("images/warm-house-proskuriv-sm.jpg") repeat-x;
 }
 
 .callback {
@@ -1222,12 +1222,15 @@ tr th:first-child {
   }
 
   header {
-    height: 80px;
+    height: 50px;
   }
 
   .production_grid {
     display: flex;
     flex-direction: column;
+  }
+  .production_grid .main_banner p {
+    margin: 1rem auto;
   }
 
   .production_item {
@@ -1274,10 +1277,41 @@ tr th:first-child {
   .callback_ask p:nth-child(2) {
     text-align: center;
   }
+
+  .intro img {
+    width: 100%;
+  }
 }
-/*
-@media only screen and (min-width: 1280px) and (orientation: landscape){
-.wrapper video {
-height: 100%;
-width: auto;
-}}*/
+@media (max-aspect-ratio: 16 / 9) {
+  .wrapper video {
+    width: auto;
+    height: 100%;
+  }
+}
+@media (min-aspect-ratio: 16 / 9) {
+  .wrapper video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .wrapper video {
+    display: none;
+  }
+
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-1px) scale(2);
+    background-size: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url("images/kotly-proskurov-home-bg.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}

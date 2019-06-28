@@ -12,7 +12,7 @@ function wscroll() {
         /*scrol.classList.add("scroll");*/
         mous.style.opacity = "0";
         herotext.forEach(el=> el.style.opacity = "0");
-        herologo.style.opacity = '.8';
+        herologo.style.opacity = '.6';
     } else {
         scrol.forEach(el => el.classList.remove('scrol','scro'));
         mous.style.opacity = "1";
