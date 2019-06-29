@@ -149,6 +149,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 10;
+  padding: 5px;
   transition: .3s all;
   ul,li {
     border: none;}
@@ -348,6 +349,10 @@ main, footer {
   }
 }
 
+#production span {
+  font-size: 2.5rem;
+}
+
 #production:before {
   display: block;
   content: " ";
@@ -373,10 +378,10 @@ main, footer {
 }
 
 .production_item{
-  /*position: relative;*/
+  position: relative;
   box-shadow: 5px 6px 7px $grey ;
   text-align: center;
-  /*vertical-align: bottom;*/
+  vertical-align: bottom;
   background: white no-repeat center;
   /*background-size: contain;*/
   max-width: 280px;
@@ -441,9 +446,12 @@ main, footer {
   justify-content: space-around;
   background-color: $orange;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.4rem;
   p{
     margin: 10px;
+    img {
+      width: 50%;
+    }
   }
 }
 
@@ -481,6 +489,7 @@ main, footer {
     font-weight: 300;
   }
   img {
+    width: 100%;
     margin: 1rem 0;
     box-shadow: 2px 0 8px rgba(0,0,0,0.7);
   }

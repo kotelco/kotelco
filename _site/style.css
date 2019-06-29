@@ -262,6 +262,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 10;
+  padding: 5px;
   transition: .3s all;
 }
 header ul, header li {
@@ -456,6 +457,10 @@ main, footer {
     transform: translateY(7px);
   }
 }
+#production span {
+  font-size: 2.5rem;
+}
+
 #production:before {
   display: block;
   content: " ";
@@ -479,10 +484,10 @@ main, footer {
 }
 
 .production_item {
-  /*position: relative;*/
+  position: relative;
   box-shadow: 5px 6px 7px #5E5E5E;
   text-align: center;
-  /*vertical-align: bottom;*/
+  vertical-align: bottom;
   background: white no-repeat center;
   /*background-size: contain;*/
   max-width: 280px;
@@ -539,10 +544,13 @@ main, footer {
   justify-content: space-around;
   background-color: #ff6633;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.4rem;
 }
 .main_banner p {
   margin: 10px;
+}
+.main_banner p img {
+  width: 50%;
 }
 
 .tverd_banner {
@@ -581,6 +589,7 @@ main, footer {
   font-weight: 300;
 }
 .intro img {
+  width: 100%;
   margin: 1rem 0;
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.7);
 }
@@ -1208,6 +1217,12 @@ tr th:first-child {
     font-size: 1.5vw;
   }
 }
+@media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait) {
+  .tverd_banner {
+    -webkit-background-size: 80%;
+    background-size: 85%;
+  }
+}
 @media only screen and (max-width: 768px) and (orientation: portrait) {
   .nav_primary {
     display: none;
@@ -1222,7 +1237,7 @@ tr th:first-child {
   }
 
   header {
-    height: 50px;
+    height: 65px;
   }
 
   .production_grid {
@@ -1257,6 +1272,19 @@ tr th:first-child {
   .production_item:nth-child(odd) .prod_item_submenu_wrapper {
     justify-content: flex-end;
     padding-right: 2rem;
+  }
+
+  .production_item:last-child {
+    background-position: 15%;
+  }
+  .production_item:last-child a {
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  .delivery_banner, .service_banner {
+    -webkit-background-size: 45%;
+    background-size: 45%;
   }
 
   .main_banner {
