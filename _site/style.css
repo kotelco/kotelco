@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic");
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic');*/
 #menuToggle {
   display: none;
   visibility: hidden;
@@ -131,6 +131,7 @@
 
 html, body {
   font-family: "Montserrat", "Arial", sans-serif;
+  font-display: swap;
   font-weight: 500;
   color: #0f0f0f;
   padding: 0;
@@ -253,7 +254,7 @@ h2 {
   opacity: 0;
 }
 #hero_logo img {
-  width: 40%;
+  width: 30%;
 }
 
 /* === Header CSS === */

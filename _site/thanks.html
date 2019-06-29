@@ -44,6 +44,26 @@
 {"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo_proskuriv_thermo.jpg"}},"url":"http://localhost:4000/thanks","headline":"Спасибо за подписку","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <script>
+        const loadFont = (url) => {
+            // the 'fetch' equivalent has caching issues
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    let css = xhr.responseText;
+                    css = css.replace(/}/g, 'font-display: swap; }');
+
+                    const head = document.getElementsByTagName('head')[0];
+                    const style = document.createElement('style');
+                    style.appendChild(document.createTextNode(css));
+                    head.appendChild(style);
+                }
+            };
+            xhr.send();
+        }
+        loadFont('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic');
+    </script>
 </head>
 
 <body class="no_parallax">

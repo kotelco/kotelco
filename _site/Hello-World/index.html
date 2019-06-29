@@ -48,6 +48,26 @@
 {"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo_proskuriv_thermo.jpg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Hello-World/"},"url":"http://localhost:4000/Hello-World/","headline":"You’re up and running!","datePublished":"2014-03-03T00:00:00+02:00","description":"Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).","dateModified":"2014-03-03T00:00:00+02:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
+    <script>
+        const loadFont = (url) => {
+            // the 'fetch' equivalent has caching issues
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    let css = xhr.responseText;
+                    css = css.replace(/}/g, 'font-display: swap; }');
+
+                    const head = document.getElementsByTagName('head')[0];
+                    const style = document.createElement('style');
+                    style.appendChild(document.createTextNode(css));
+                    head.appendChild(style);
+                }
+            };
+            xhr.send();
+        }
+        loadFont('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic');
+    </script>
 </head>
 
 <body class="no_parallax">

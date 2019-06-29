@@ -9,12 +9,14 @@ $greyer:#515151;
 $darkblue:#003366;
 $lightGrey:#eeeeee;
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic');*/
 @import "hamburger";
 @import "mobile";
 
 html, body{
+
   font-family: "Montserrat", "Arial", sans-serif;
+  font-display: swap;
   font-weight: 500;
   color: $darkGrey;
   padding: 0;
@@ -138,7 +140,7 @@ h2{
   padding-top: 50px;
   opacity: 0;
   img {
-    width: 40%;
+    width: 30%;
   }
 }
 /* === Header CSS === */
