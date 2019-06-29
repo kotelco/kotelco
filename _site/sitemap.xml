@@ -38,7 +38,7 @@
 <loc>http://localhost:4000/service/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/thanks/</loc>
+<loc>http://localhost:4000/thanks</loc>
 </url>
 <url>
 <loc>http://localhost:4000/js/temp.html</loc>

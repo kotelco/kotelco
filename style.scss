@@ -87,7 +87,7 @@ h2{
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: $blue;
+  background-color: rgba(51,153,204,0.5);
   scroll-behavior: smooth;
 }
 .hero {
@@ -976,9 +976,16 @@ tr th:first-child{
   h3 {
     font-size: 1.5rem;
   }
-
 }
+
+/*.scrollTop{
+  background:url('images/arrows.png') 0 0 no-repeat;
+  width:50px; height:70px;
+  bottom:10px; left:48%;
+}
+.scrollTop:hover{ background-position:0 -76px; }*/
 
 
 
 @import "media";
+@import "callback_btn";

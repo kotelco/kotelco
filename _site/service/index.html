@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>КотелКо-Отопительные котлы "Проскуров-Термо"</title>
+    <title>КотелКо-Гарантия и сервис от предприятия "Проскуров-Термо"</title>
 
     <link rel="stylesheet" href="/style.css" class="css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -20,7 +20,6 @@
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b774d02e2ddecff916a46da0a/6a6320f2b632540703abfbd44.js");</script>
 </head>
 
-<script src="/js/jquery.slim.min.3.4.1.js"></script>
 <body class="no_parallax">
 <header id="header" class="scro">
     <nav role="navigation">
@@ -31,7 +30,7 @@
             <span></span>
             <section class="mobile_logo">
                 <a href="/" title="">
-                    <img src="/images/logo_new_colors_noUrl.png" alt="Ruslan logo">
+                    <img src="/images/logo_new_colors_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко">
                 </a>
             </section>
             <menu id="mobile_nav">
@@ -70,7 +69,7 @@
             <section class="header_inner">
                 <section class="logo">
                     <a href="/" title="">
-                        <img src="/images/logo_new_colors_noUrl.png" alt="Ruslan_logo">
+                        <img src="/images/logo_new_colors_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко">
                     </a>
                 </section>
                 <menu>
@@ -114,17 +113,17 @@
       <footer>
     <div id="contact" class="footer_wrapper">
         <div class="contacts footer_cell">
-            <div class="footer_logo"><a href="#"><img src="/images/logo_new_colors_noUrl.png"/></a></div>
+            <div class="footer_logo"><a href="#"><img src="/images/logo_new_colors_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко"/></a></div>
             <p class="footer_phone">+38(068)&nbsp;0854088<br>+38(063)&nbsp;3800010</p>
             <p class="footer_mail">kotelco@ukr.net</p>
             <ul class="social">
-                <li><a href="https://www.facebook.com"><img src="/images/icon-facebook.png"
-                                                            alt="Наша страничка в Фейсбук"></a></li>
-                <li><a href="https://www.instagram.com"><img src="/images/icon-instagram.png"
-                                                             alt="Наша страничка в Инстаграм"></a></li>
+                <li><a href="https://www.facebook.com"><img src="/images/icon-facebook.png" alt="facebook icon"
+                                                            title="Наша страничка в Фейсбук"></a></li>
+                <li><a href="https://www.instagram.com"><img src="/images/icon-instagram.png" alt="instagramm icon"
+                                                             title="Наша страничка в Инстаграм"></a></li>
                 <li><a href="https://www.facebook.com"><img src="/images/icon-facebook-messenger.png"
-                                                            alt="Нашишите нам в Фейсбук мессенджер"></a></li>
-                <li><a href="viber://chat?number=380676722222"><img src="/images/icon-viber.png" alt="Нашишите нам в Вайбер" title="Нашишите нам в Вайбер"></a>
+                                                            title="Нашишите нам в Фейсбук мессенджер" alt="fb messenger icon"></a></li>
+                <li><a href="viber://chat?number=380676722222"><img src="/images/icon-viber.png" alt="viber icon" title="Нашишите нам в Вайбер"></a>
                 </li>
             </ul>
         </div>
@@ -181,7 +180,74 @@
     </div>
     <p class="copy">Авторские права © Котел.Ко 2018</p>
 
-</footer></div>
+
+</footer>
+</div>
+<a id="popup__toggle" onclick="return false;">
+    <div class="circlephone" style="transform-origin: center;"></div>
+    <div class="circle-fill" style="transform-origin: center;"></div>
+    <div class="img-circle" style="transform-origin: center;">
+        <div class="img-circleblock" style="transform-origin: center;"></div>
+    </div>
+</a>
+<!--[if lt IE 9]><div class="popup__overlay popup__overlay_ie"></div><![endif]-->
+<div id="popup__overlay">
+    <div class="popup">
+        <div id="popup__close" >X</div>
+        <p>Оставьте Ваш номер телефона.<br>Мы обязательно Вам перезвоним!</p>
+        <style>
+    .form__field {
+        margin-bottom: 10px;
+    }
+
+    .form__error {
+        color: red;
+        text-align: left;
+        font-size: 12px;
+        display: block;
+        margin-top: 3px;
+        display: none;
+    }
+
+    input:valid:not(:placeholder-shown) {
+        border-color: green;
+    }
+
+    input:invalid:not(:placeholder-shown) {
+        border-color: red;
+    }
+    input:invalid:not(:placeholder-shown) + .form__error {
+        display: block;
+    }
+</style>
+<div class="callback_form">
+    <form class="callback_form" method="POST" action="//formspree.io/kotelco@ukr.net">
+        <!--action="//formspree.io/kotelco@ukr.net"-->
+        <input type="text" name="name" placeholder="Ваше имя"><br/>
+        <div class="form__field">
+            <input type="tel" name="phone" placeholder="Ваш номер телефона" required
+                  ><br/>
+            <span class="form__error">Это поле должно содержать телефон в формате +380671234567</span>
+        </div>
+        <input type="hidden" name="_next" value="/thanks">
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="submit" value="Перезвоните мне"/>
+    </form>
+    <!--<script>
+        var contactform =  document.getElementById('formaction');
+        contactform.setAttribute('action', '//formspree.io/' + 'kotelco' + '@' + 'ukr' + '.' + 'net');
+    </script>-->
+</div>
+    </div>
+    <!--[if lt IE 9]><div class="popup__valignfix"></div><![endif]-->
+    <script>
+        var popupBtn = document.getElementById('popup__toggle');
+        var popupWin = document.getElementById('popup__overlay');
+        var popupClose = document.getElementById('popup__close');
+        popupBtn.onclick = function() {popupWin.style.display = "block";};
+        popupClose.onclick = function() {popupWin.style.display = "none";};
+    </script>
+</div>
 <script src="/js/mobmenu.js"></script>
 </body>
 </html>
