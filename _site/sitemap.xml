@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/Hello-World/</loc>
-<lastmod>2014-03-03T00:00:00+02:00</lastmod>
+<loc>http://localhost:4000/aotv-20/</loc>
+<lastmod>2018-10-03T00:00:00+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/aogv-16/</loc>
+<lastmod>2018-11-16T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/aotv-22n/</loc>
+<lastmod>2019-02-02T00:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -11,10 +19,10 @@
 <loc>http://localhost:4000/delivery/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/s-varochnoy-plitoy</loc>
+<loc>http://localhost:4000/feedbacks/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/gas-parapetnye</loc>
+<loc>http://localhost:4000/pechi-na-drovax</loc>
 </url>
 <url>
 <loc>http://localhost:4000/kotly-s-ventilyatorom</loc>
@@ -23,13 +31,16 @@
 <loc>http://localhost:4000/elektrokotly</loc>
 </url>
 <url>
+<loc>http://localhost:4000/gas-parapetnye</loc>
+</url>
+<url>
 <loc>http://localhost:4000/gas-dymohodnye</loc>
 </url>
 <url>
 <loc>http://localhost:4000/kotly-na-drovah</loc>
 </url>
 <url>
-<loc>http://localhost:4000/pechi-na-drovax</loc>
+<loc>http://localhost:4000/s-varochnoy-plitoy</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

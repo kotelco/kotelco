@@ -13,7 +13,7 @@ function detectmob() {
     else {
         // If not mobile then do this
         document.getElementById("video").innerHTML = '<source src="images/colors300.webm" type="video/webm"><source src="images/colors300.mp4" type="video/mp4"><source src="images/colors300.ogv" type="video/ogg">';
-        /*document.getElementById("video").reload(true);*/
+        /*document.getElementById("video").reload();*/
     }
 }
 detectmob();

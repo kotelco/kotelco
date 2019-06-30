@@ -1004,13 +1004,33 @@ tr th:first-child{
   }
 }
 
-/*.scrollTop{
-  background:url('images/arrows.png') 0 0 no-repeat;
-  width:50px; height:70px;
-  bottom:10px; left:48%;
+.post-on-feedback {
+  list-style: none;
+  h3 {
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+  .blogdate {
+    float: right;
+    font-weight: 500;
+  }
+  p{
+    display: inline;
+  }
 }
-.scrollTop:hover{ background-position:0 -76px; }*/
 
+.post-on-post {
+  h2 {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  a {
+    float: right;
+    font-size: 1.3rem;
+  }
+  .date { font-size: .9rem;
+  }
+}
 
 @import "callback_btn";
 @import "media";

@@ -1239,12 +1239,33 @@ tr th:first-child {
   font-size: 1.5rem;
 }
 
-/*.scrollTop{
-  background:url('images/arrows.png') 0 0 no-repeat;
-  width:50px; height:70px;
-  bottom:10px; left:48%;
+.post-on-feedback {
+  list-style: none;
 }
-.scrollTop:hover{ background-position:0 -76px; }*/
+.post-on-feedback h3 {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+.post-on-feedback .blogdate {
+  float: right;
+  font-weight: 500;
+}
+.post-on-feedback p {
+  display: inline;
+}
+
+.post-on-post h2 {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.post-on-post a {
+  float: right;
+  font-size: 1.3rem;
+}
+.post-on-post .date {
+  font-size: .9rem;
+}
+
 #popup__toggle {
   bottom: 25px;
   right: 10px;
