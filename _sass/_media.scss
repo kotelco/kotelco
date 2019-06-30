@@ -9,7 +9,11 @@ html,body {font-size: 1.5vw;}
 @media (min-width: 481px) and (max-width: 767px) {
 
   html,body {font-size: 1.75vw;}
-
+  #mobile_nav {
+    font-size: 2rem;}
+  .intro li, .intro>p{
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -126,6 +130,12 @@ text-align: center;
   .intro img {
     width: 100%;
   }
+  .footer_phone, .footer_mail {
+    font-size: 1.1rem;}
+  .subscribe_form input {
+    line-height: 22px;}
+  #popup__toggle {
+    bottom: 100px;}
 }
 
 

@@ -529,6 +529,7 @@ main, footer {
 .callback {
   position: relative;
   height: 60vh;
+  overflow: hidden;
   /*  background-color:transparent;*/
 }
 
@@ -1011,6 +1012,5 @@ tr th:first-child{
 .scrollTop:hover{ background-position:0 -76px; }*/
 
 
-
-@import "media";
 @import "callback_btn";
+@import "media";
