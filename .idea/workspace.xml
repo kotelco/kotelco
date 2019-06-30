@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8441d0c0-6924-427a-a0e6-bf1b40361be9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +34,9 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="25" column="4" selection-start-line="25" selection-end-line="25" selection-end-column="49" />
+                <state relative-caret-position="357">
+                  <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
                   <folding>
-                    <element signature="e#406#2808#1" />
                     <element signature="e#3479#3485#0" expanded="true" />
                     <element signature="e#3504#3510#0" expanded="true" />
                   </folding>
@@ -353,7 +349,7 @@
       <workItem from="1561627118846" duration="378000" />
       <workItem from="1561627962001" duration="5511000" />
       <workItem from="1561748253356" duration="5372000" />
-      <workItem from="1561799886987" duration="30714000" />
+      <workItem from="1561799886987" duration="31016000" />
     </task>
     <task id="LOCAL-00001" summary="This is test of VCS">
       <created>1559392938290</created>
@@ -387,7 +383,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146841000" />
+    <option name="totallyTimeSpent" value="147143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="16" width="1937" height="1056" extended-state="0" />
@@ -809,10 +805,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="4" selection-start-line="25" selection-end-line="25" selection-end-column="49" />
+        <state relative-caret-position="357">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
-            <element signature="e#406#2808#1" />
             <element signature="e#3479#3485#0" expanded="true" />
             <element signature="e#3504#3510#0" expanded="true" />
           </folding>
