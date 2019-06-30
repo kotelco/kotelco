@@ -131,7 +131,6 @@
 
 html, body {
   font-family: "Montserrat", "Arial", sans-serif;
-  font-display: swap;
   font-weight: 500;
   color: #0f0f0f;
   padding: 0;
@@ -502,6 +501,7 @@ main, footer {
   min-height: 270px;
   padding: 10px;
   color: #3399cc;
+  text-shadow: white 1px 1px;
 }
 
 .production_item:hover > .prod_item_submenu_wrapper {
@@ -709,6 +709,31 @@ div.callback_form {
   -webkit-border-radius: 5px;
   border-radius: 10px;
   margin-bottom: 0;
+}
+
+.form__field {
+  margin-bottom: 10px;
+}
+
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
 }
 
 .feedback {
@@ -1219,9 +1244,30 @@ tr th:first-child {
   bottom:10px; left:48%;
 }
 .scrollTop:hover{ background-position:0 -76px; }*/
-@media only screen and (max-width: 1240px) {
+/*@media (min-width: 1240px){
+html,body {font-size: 1.5vw;}
+}*/
+@media (min-width: 768px) and (max-width: 1025px) {
   html, body {
     font-size: 1.5vw;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  html, body {
+    font-size: 1.75vw;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  html, body {
+    font-size: 2.4vw;
+  }
+
+  #mobile_nav {
+    font-size: 2rem;
+  }
+
+  .intro li, .intro > p {
+    font-size: 1.4rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait) {
@@ -1245,6 +1291,16 @@ tr th:first-child {
 
   header {
     height: 65px;
+  }
+
+  .hero h1 {
+    padding-top: 18rem;
+  }
+  .hero h1 img {
+    width: 40%;
+  }
+  .hero h2 {
+    padding-top: 20rem;
   }
 
   .production_grid {
@@ -1289,7 +1345,7 @@ tr th:first-child {
     text-align: right;
   }
 
-  .delivery_banner, .service_banner {
+  .delivery_banner, .service_banner, .tverd_banner {
     -webkit-background-size: 45%;
     background-size: 45%;
   }
@@ -1355,6 +1411,12 @@ tr th:first-child {
   right: 10px;
   position: fixed;
   z-index: 999;
+}
+#popup__toggle div {
+  transform-origin: center;
+}
+#popup__toggle > div {
+  zoom: 0.7;
 }
 
 .img-circle {
@@ -1630,8 +1692,6 @@ tr th:first-child {
 
 #popup__overlay:after {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
   height: 100%;
   width: 0;
   vertical-align: middle;
@@ -1647,8 +1707,7 @@ tr th:first-child {
 
 .popup {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  zoom: 1.5;
   position: relative;
   max-width: 80%;
   padding: 20px;
@@ -1661,8 +1720,6 @@ tr th:first-child {
 /* ADDED INSTEAD OF :AFTER PSEUDOELEMENT */
 .popup__valignfix {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
   width: 0;
   height: 100%;
   vertical-align: middle;

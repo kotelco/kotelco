@@ -51,7 +51,6 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-gzip
 

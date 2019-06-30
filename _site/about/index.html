@@ -260,10 +260,10 @@
 </footer>
 </div>
 <a id="popup__toggle" onclick="return false;">
-    <div class="circlephone" style="transform-origin: center;"></div>
-    <div class="circle-fill" style="transform-origin: center;"></div>
-    <div class="img-circle" style="transform-origin: center;">
-        <div class="img-circleblock" style="transform-origin: center;"></div>
+    <div class="circlephone"></div>
+    <div class="circle-fill"></div>
+    <div class="img-circle">
+        <div class="img-circleblock"></div>
     </div>
 </a>
 <!--[if lt IE 9]><div class="popup__overlay popup__overlay_ie"></div><![endif]-->
@@ -271,32 +271,7 @@
     <div class="popup">
         <div id="popup__close" >X</div>
         <p>Оставьте Ваш номер телефона.<br>Мы обязательно Вам перезвоним!</p>
-        <style>
-    .form__field {
-        margin-bottom: 10px;
-    }
-
-    .form__error {
-        color: red;
-        text-align: left;
-        font-size: 12px;
-        display: block;
-        margin-top: 3px;
-        display: none;
-    }
-
-    input:valid:not(:placeholder-shown) {
-        border-color: green;
-    }
-
-    input:invalid:not(:placeholder-shown) {
-        border-color: red;
-    }
-    input:invalid:not(:placeholder-shown) + .form__error {
-        display: block;
-    }
-</style>
-<div class="callback_form">
+        <div class="callback_form">
     <form class="callback_form" method="POST" action="//formspree.io/kotelco@ukr.net">
         <!--action="//formspree.io/kotelco@ukr.net"-->
         <input type="text" name="name" placeholder="Ваше имя"><br/>

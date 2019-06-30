@@ -3,6 +3,12 @@
   right: 10px;
   position: fixed;
   z-index: 999;
+  div{
+    transform-origin: center;
+  }
+  >div{
+    zoom:0.7;
+  }
 }
 
 .img-circle {
@@ -289,8 +295,6 @@
 }
 #popup__overlay:after {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
   height: 100%;
   width: 0;
   vertical-align: middle;
@@ -304,8 +308,7 @@
 }
 .popup {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  zoom: 1.5;
   position: relative;
   max-width: 80%;
   padding: 20px;
@@ -317,8 +320,6 @@
 /* ADDED INSTEAD OF :AFTER PSEUDOELEMENT */
 .popup__valignfix {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
   width: 0;
   height: 100%;
   vertical-align: middle

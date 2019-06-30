@@ -16,7 +16,6 @@ $lightGrey:#eeeeee;
 html, body{
 
   font-family: "Montserrat", "Arial", sans-serif;
-  font-display: swap;
   font-weight: 500;
   color: $darkGrey;
   padding: 0;
@@ -398,7 +397,7 @@ main, footer {
   min-height: 270px;
   padding: 10px;
   color:$blue;
-
+  text-shadow: white 1px 1px;
 }
 
 .production_item:hover > .prod_item_submenu_wrapper
@@ -618,6 +617,30 @@ div.callback_form{
   -webkit-border-radius: 5px;
   border-radius: 10px;
   margin-bottom: 0;
+}
+
+.form__field {
+  margin-bottom: 10px;
+}
+
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
 }
 
 .feedback{

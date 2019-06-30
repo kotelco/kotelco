@@ -1,9 +1,30 @@
-@media only screen and (max-width: 1240px){
+/*@media (min-width: 1240px){
 html,body {font-size: 1.5vw;}
+}*/
+
+@media (min-width: 768px) and (max-width: 1025px){
+  html,body {font-size: 1.5vw;}
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+
+  html,body {font-size: 1.75vw;}
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  html,body {font-size: 2.4vw;}
+  #mobile_nav {
+    font-size: 2rem;}
+  .intro li, .intro>p{
+    font-size: 1.4rem;
+  }
+
+}
 
 @media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait){
+
   .tverd_banner {
     -webkit-background-size: 80%;
     background-size: 85%;
@@ -26,6 +47,17 @@ html,body {font-size: 1.5vw;}
   }
   header {
     height: 65px;
+  }
+
+  .hero  {
+   h1{ padding-top: 18rem;
+    img{
+      width: 40%;
+    }
+   }
+    h2{
+      padding-top: 20rem;
+    }
   }
   .production_grid {
     display: flex;
@@ -70,7 +102,7 @@ html,body {font-size: 1.5vw;}
       text-align: right;
     }}
 
-  .delivery_banner, .service_banner {
+  .delivery_banner, .service_banner, .tverd_banner {
     -webkit-background-size: 45%;
     background-size: 45%;
   }
