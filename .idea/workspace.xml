@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/_includes/header.html" line="8" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="8441d0c0-6924-427a-a0e6-bf1b40361be9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/aogv-16/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/aogv-16/index.html" afterDir="false" />
@@ -21,14 +17,16 @@
       <change beforePath="$PROJECT_DIR$/_site/gas-dymohodnye.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gas-dymohodnye.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/gas-parapetnye.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gas-parapetnye.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/videoMob.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/js/videoMob.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/kotly-na-drovah.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kotly-na-drovah.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/kotly-s-ventilyatorom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kotly-s-ventilyatorom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/pechi-na-drovax.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/pechi-na-drovax.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/s-varochnoy-plitoy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/s-varochnoy-plitoy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/service/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/service/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/thanks.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/thanks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feedbacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/feedbacks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/videoMob.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/videoMob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,23 +49,23 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47587454">
+    <splitter split-orientation="horizontal" split-proportion="0.4383313">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2431">
+                <state relative-caret-position="3451">
                   <caret line="143" column="618" selection-start-line="143" selection-start-column="618" selection-end-line="143" selection-end-column="618" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_includes/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+                <state relative-caret-position="476">
+                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -75,8 +73,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/head.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+                <state relative-caret-position="391">
+                  <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -132,7 +130,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_includes/temp.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
@@ -148,8 +146,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="635">
-                  <caret line="1030" column="27" selection-start-line="1030" selection-start-column="27" selection-end-line="1030" selection-end-column="27" />
+                <state relative-caret-position="341">
+                  <caret line="748" column="15" selection-start-line="748" selection-start-column="15" selection-end-line="748" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -164,19 +162,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/_includes/fb_messenger_snippet.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="24" selection-start-line="1" selection-end-line="26" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="357">
+                  <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -342,26 +331,26 @@
         <option value="$PROJECT_DIR$/_sass/_callback_btn.scss" />
         <option value="$PROJECT_DIR$/_sass/_media.scss" />
         <option value="$PROJECT_DIR$/_posts/2018-10-3-aogv-16.md" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_posts/2014-3-3-Hello-World.md" />
         <option value="$PROJECT_DIR$/_posts/2014-3-3-aotv-22n.md" />
         <option value="$PROJECT_DIR$/_posts/2019-02-02-aotv-22n.md" />
         <option value="$PROJECT_DIR$/_posts/2018-11-16-aogv-16.md" />
         <option value="$PROJECT_DIR$/_locales/ru.yml" />
         <option value="$PROJECT_DIR$/_plugins/i18n_filter.rb" />
-        <option value="$PROJECT_DIR$/style.scss" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/js/videoMob.js" />
         <option value="$PROJECT_DIR$/_posts/2018-10-3-aotv-20.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/disqus.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/feedbacks.html" />
         <option value="$PROJECT_DIR$/_includes/temp.html" />
         <option value="$PROJECT_DIR$/_includes/fb_messenger_snippet.html" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/js/videoMob.js" />
+        <option value="$PROJECT_DIR$/style.scss" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -396,17 +385,7 @@
             <path>
               <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="_site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,7 +482,7 @@
       <workItem from="1561748253356" duration="5372000" />
       <workItem from="1561799886987" duration="51824000" />
       <workItem from="1562063740973" duration="4239000" />
-      <workItem from="1562086461771" duration="1033000" />
+      <workItem from="1562086461771" duration="5002000" />
     </task>
     <task id="LOCAL-00001" summary="This is test of VCS">
       <created>1559392938290</created>
@@ -537,12 +516,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173223000" />
+    <option name="totallyTimeSpent" value="177192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1952" y="19" width="1932" height="1045" extended-state="1" />
+    <frame x="-1952" y="19" width="1932" height="1045" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11645299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11645299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -555,7 +535,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2138158" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2138158" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -637,14 +617,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2nd This is test of VCS" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/modal_image.js" />
-    <entry file="file://$PROJECT_DIR$/js/callback_modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thanks.html">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -826,35 +798,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/videoMob.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/analytics.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="618" selection-start-line="143" selection-start-column="618" selection-end-line="143" selection-end-column="618" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -893,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="3" column="126" selection-start-line="3" selection-start-column="126" selection-end-line="3" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -949,20 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="1030" column="27" selection-start-line="1030" selection-start-column="27" selection-end-line="1030" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/temp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -970,10 +893,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mobmenu.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/videoMob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/fb_messenger_snippet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" selection-start-line="1" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="1" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/disqus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3451">
+          <caret line="143" column="618" selection-start-line="143" selection-start-column="618" selection-end-line="143" selection-end-column="618" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="835" column="11" selection-start-line="835" selection-start-column="11" selection-end-line="835" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="748" column="15" selection-start-line="748" selection-start-column="15" selection-end-line="748" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>

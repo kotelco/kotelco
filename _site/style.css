@@ -830,8 +830,11 @@ footer {
   display: block;
   height: 100%;
 }
-.social li a img {
+.social li img {
   width: 100%;
+}
+.social li :nth-child(3) img {
+  width: 90%;
 }
 
 .footer_phone, .footer_mail {

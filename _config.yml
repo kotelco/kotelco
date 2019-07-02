@@ -31,6 +31,14 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
+author: Kotel.Co
+
+twitter:
+  username: kotelco
+  card: summary
+
+facebook:
+  publisher: 363826764274862
 
 permalink: /:title/
 
