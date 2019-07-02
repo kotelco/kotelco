@@ -2,7 +2,6 @@
 layout: default
 comments: true
 ---
-
 <article class="post-on-post">
   <h2>{{ page.title }}</h2>
   <a href="\feedbacks">Все отзывы</a>
@@ -13,8 +12,7 @@ comments: true
   <div class="date">
    Опубликовано <i>{{ page.date | date: "%d-%m-%Y" }}</i> ,  автор <i>{{ page.author }}</i>
   </div>
-
-
 </article>
+<hr>
 {% include disqus.html %}
 <script id="dsq-count-scr" src="//kotelco.disqus.com/count.js" async></script>
