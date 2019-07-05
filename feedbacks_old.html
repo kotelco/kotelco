@@ -7,7 +7,7 @@ description: Вы можете оставить свой честный отзы
     {% for post in site.posts %}
     <li class="post-on-feedback">
         <h3>{{ post.title }}</h3>
-        <p class="blogdate clear">{% include date_ru.html date=post.date %}</p>
+        <p class="blogdate clear">{{ post.date | date: "%d %B %Y" }}</p>
         <div class="clear">{{ post.content |truncatehtml | truncatewords: 40 }}</div>
         <a href="{{ post.url }}">Читать полностью</a>
     </li>

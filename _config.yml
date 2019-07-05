@@ -28,6 +28,16 @@ url: https://kotel.co.ua
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+post:
+  permalink: /:categories/:year/:title/
+
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -40,7 +50,7 @@ twitter:
 facebook:
   publisher: 363826764274862
 
-permalink: /:title/
+#permalink: /:title/
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:

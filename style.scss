@@ -644,6 +644,7 @@ input:invalid:not(:placeholder-shown) + .form__error {
   display: block;
 }
 
+/*feedbacks on home page*/
 .feedback{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -654,6 +655,42 @@ input:invalid:not(:placeholder-shown) + .form__error {
   font: 1.1rem "Roboto", "Arial", sans-serif;
   font-weight: 300;
 }
+
+.feedback .post-on-feedback h3, .feedback .post-on-feedback>p {
+    display: block;
+  text-align: left;
+  font-weight: 700;
+  }
+
+/*feedbacks on feedback page*/
+.post-on-feedback {
+  list-style: none;
+  h3 {
+    display: inline-block;
+    font-size: 1.4rem;
+  }
+  .blogdate {
+    float: right;
+    font-weight: 500;
+  }
+  p{
+    display: inline;
+  }
+}
+
+.post-on-post {
+  h2 {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  a {
+    float: right;
+    font-size: 1.3rem;
+  }
+  .date { font-size: .9rem;
+  }
+}
+/*end of feedbacks*/
 
 .blog{
   padding-bottom: 2rem;
@@ -1007,33 +1044,48 @@ tr th:first-child{
   }
 }
 
-.post-on-feedback {
-  list-style: none;
-  h3 {
-    display: inline-block;
-    font-size: 1.4rem;
+/*Articles*/
+
+.article_on_articles {
+  max-width: 1220px;
+  margin: 0 auto;
+  ul {
+    padding-left: 2rem;
   }
-  .blogdate {
-    float: right;
-    font-weight: 500;
+  h1 {
+    font-family: "Roboto Slab", "Arial", sans-serif;
+    font-size: 2.6rem;
+    margin-top: 90px;
   }
-  p{
-    display: inline;
+  h2,h4 {
+    font-family: "Montserrat", "Arial", sans-serif;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  li {
+    list-style: unset;
+  }
+  img {
+    float: left;
+    padding-right: 2rem;
   }
 }
 
-.post-on-post {
-  h2 {
-    display: inline-block;
-    font-size: 1.5rem;
-  }
-  a {
-    float: right;
-    font-size: 1.3rem;
-  }
-  .date { font-size: .9rem;
-  }
+h3 {
+  font-size: 1.5rem;
 }
+
+
+
+
+.top-margin {
+  margin-top: 100px;
+}
+
 
 @import "callback_btn";
 @import "media";

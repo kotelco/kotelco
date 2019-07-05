@@ -737,6 +737,7 @@ input:invalid:not(:placeholder-shown) + .form__error {
   display: block;
 }
 
+/*feedbacks on home page*/
 .feedback {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -748,6 +749,41 @@ input:invalid:not(:placeholder-shown) + .form__error {
   font-weight: 300;
 }
 
+.feedback .post-on-feedback h3, .feedback .post-on-feedback > p {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+}
+
+/*feedbacks on feedback page*/
+.post-on-feedback {
+  list-style: none;
+}
+.post-on-feedback h3 {
+  display: inline-block;
+  font-size: 1.4rem;
+}
+.post-on-feedback .blogdate {
+  float: right;
+  font-weight: 500;
+}
+.post-on-feedback p {
+  display: inline;
+}
+
+.post-on-post h2 {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+.post-on-post a {
+  float: right;
+  font-size: 1.3rem;
+}
+.post-on-post .date {
+  font-size: .9rem;
+}
+
+/*end of feedbacks*/
 .blog {
   padding-bottom: 2rem;
 }
@@ -1242,31 +1278,42 @@ tr th:first-child {
   font-size: 1.5rem;
 }
 
-.post-on-feedback {
-  list-style: none;
+/*Articles*/
+.article_on_articles {
+  max-width: 1220px;
+  margin: 0 auto;
 }
-.post-on-feedback h3 {
-  display: inline-block;
-  font-size: 1.4rem;
+.article_on_articles ul {
+  padding-left: 2rem;
 }
-.post-on-feedback .blogdate {
-  float: right;
-  font-weight: 500;
+.article_on_articles h1 {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 2.6rem;
+  margin-top: 90px;
 }
-.post-on-feedback p {
-  display: inline;
+.article_on_articles h2, .article_on_articles h4 {
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+.article_on_articles h2 {
+  font-size: 1.8rem;
+}
+.article_on_articles h4 {
+  font-size: 1.2rem;
+}
+.article_on_articles li {
+  list-style: unset;
+}
+.article_on_articles img {
+  float: left;
+  padding-right: 2rem;
 }
 
-.post-on-post h2 {
-  display: inline-block;
+h3 {
   font-size: 1.5rem;
 }
-.post-on-post a {
-  float: right;
-  font-size: 1.3rem;
-}
-.post-on-post .date {
-  font-size: .9rem;
+
+.top-margin {
+  margin-top: 100px;
 }
 
 #popup__toggle {

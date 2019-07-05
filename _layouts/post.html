@@ -10,7 +10,7 @@ comments: true
   </div>
 
   <div class="date">
-   Опубликовано <i>{{ page.date | date: "%d-%m-%Y" }}</i> ,  автор <i>{{ page.author }}</i>
+     Опубликовано <i>{% include date_ru.html date=page.date %}</i> ,  автор <i>{{ page.author }}</i>
   </div>
 </article>
 <hr>

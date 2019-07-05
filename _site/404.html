@@ -4,7 +4,6 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js no_parallax" lang="ru_RU"><!--<![endif]-->
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css" class="css">
@@ -17,7 +16,14 @@
     <!--<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">-->
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
-    <script src="//code-ru1.jivosite.com/widget.js" jv-id="xes1Fd7vbh" async></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5KP28WL');</script>
+    <!-- End Google Tag Manager -->
+
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b774d02e2ddecff916a46da0a/6a6320f2b632540703abfbd44.js");</script>
     <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Извините, страница не найдена</title>
@@ -56,13 +62,7 @@
         }
         loadFont('https://fonts.googleapis.com/css?family=Montserrat:300,500,700|Roboto:300,500,700|Roboto Slab:300,500,700&amp;subset=cyrillic');
     </script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5KP28WL');</script>
-    <!-- End Google Tag Manager -->
+
 </head>
 
 <body class="no_parallax">
@@ -153,23 +153,41 @@
         </section><!--#nav-primary-->
     </nav>
 </header>
-<div id="default_layout">
-      <div class="default_content">
-            <article class="page">
 
-  <h1>Извините, страница не найдена</h1>
 
-  <div class="entry">
+<article class="article_on_articles">
+    <h1>404.md</h1>
+
+
     <p>Sorry, we can’t find that page that you’re looking for. You can try again by going <a href="/">back to the homepage</a>.</p>
 
 <p><a href="/"><img src="/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;" /></a></p>
 
-  </div>
+
 </article>
+<hr>
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script>
 
+		/**
+		 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        var disqus_config = function () {
+        this.page.url = "https://kotel.co.ua/404.html";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = ""; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+		(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = 'https://kotelco.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
 
-      </div>
-      <footer>
+<footer>
     <div id="contact" class="footer_wrapper">
         <div class="contacts footer_cell">
             <div class="footer_logo"><a href="#"><img src="/images/logo_new_colors_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко"/></a></div>
@@ -194,7 +212,7 @@
                 <li><a href="/delivery">Доставка</a></li>
                 <li><a href="/service">Сервис</a></li>
                 <li><a href="/feedbacks">Отзывы</a></li>
-                <li><a href="#">Статьи</a></li>
+                <li><a href="/articles">Статьи</a></li>
             </ul>
 
         </div>
@@ -243,7 +261,7 @@
 
 
 </footer>
-</div>
+
 <a id="popup__toggle" onclick="return false;">
     <div class="circlephone"></div>
     <div class="circle-fill"></div>
@@ -287,3 +305,5 @@
 <script src="/js/mobmenu.js"></script>
 </body>
 </html>
+
+
