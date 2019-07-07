@@ -1317,7 +1317,7 @@ h3 {
 }
 
 #popup__toggle {
-  bottom: 25px;
+  bottom: 100px;
   right: 10px;
   position: fixed;
   z-index: 999;
@@ -1709,6 +1709,16 @@ html,body {font-size: 1.5vw;}
   }
 }
 @media only screen and (max-width: 768px) and (orientation: portrait) {
+  ._orinationRight_25.wrap_mW {
+    right: 50% !important;
+    zoom: 0.7 !important;
+    top: 1rem !important;
+  }
+
+  #popup__toggle > div {
+    zoom: 0.5;
+  }
+
   .nav_primary {
     display: none;
     visibility: hidden;

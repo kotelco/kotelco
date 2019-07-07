@@ -79,5 +79,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - temp
 
 include: ['.htaccess']
