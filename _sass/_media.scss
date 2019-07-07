@@ -1,6 +1,13 @@
 /*@media (min-width: 1240px){
 html,body {font-size: 1.5vw;}
 }*/
+@media (min-width: 1240px){
+  .delivery_companies {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 
 @media (min-width: 768px) and (max-width: 1025px){
   html,body {font-size: 1.5vw;}
@@ -24,6 +31,9 @@ html,body {font-size: 1.5vw;}
   .intro li, .intro>p{
     font-size: 1.4rem;
   }
+  .delivery_companies img {
+    max-width: 80%;
+  }
 
 }
 
@@ -38,6 +48,12 @@ html,body {font-size: 1.5vw;}
 
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
+  .delivery_companies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+
+  }
 
   ._orinationRight_25.wrap_mW {
     right: 50%!important;

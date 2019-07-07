@@ -469,7 +469,7 @@ main, footer {
   visibility: hidden;
 }
 
-.main_wrapper, .footer_wrapper, .default_content {
+.main_wrapper, .footer_wrapper, .default_content, .delivery_wrapper, .service_wrapper {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -1316,6 +1316,56 @@ h3 {
   margin-top: 100px;
 }
 
+.delivery_wrapper {
+  padding: 100px 2rem 2rem;
+}
+.delivery_wrapper li {
+  font-weight: 500;
+  list-style: none;
+  padding: 10px 0;
+}
+.delivery_wrapper img {
+  box-shadow: 5px 6px 7px #5E5E5E;
+  margin-bottom: 2rem;
+}
+
+.delivery_companies {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  justify-content: space-around;
+  justify-items: center;
+}
+.delivery_companies li {
+  padding: 0;
+}
+
+.service_wrapper h1 {
+  font-size: 3rem;
+  font-family: "Roboto Slab", "Arial", sans-serif;
+}
+.service_wrapper ol > li {
+  list-style: decimal;
+}
+.service_wrapper ul > li {
+  list-style: disc;
+  margin-left: 2rem;
+}
+.service_wrapper .attention {
+  color: red;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.service_wrapper ul.manuals li {
+  padding: 1rem 0;
+}
+.service_wrapper ul.manuals li a {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 #popup__toggle {
   bottom: 100px;
   right: 10px;
@@ -1671,6 +1721,12 @@ h3 {
 /*@media (min-width: 1240px){
 html,body {font-size: 1.5vw;}
 }*/
+@media (min-width: 1240px) {
+  .delivery_companies {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 @media (min-width: 768px) and (max-width: 1025px) {
   html, body {
     font-size: 1.5vw;
@@ -1701,6 +1757,10 @@ html,body {font-size: 1.5vw;}
   .intro li, .intro > p {
     font-size: 1.4rem;
   }
+
+  .delivery_companies img {
+    max-width: 80%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait) {
   .tverd_banner {
@@ -1709,6 +1769,12 @@ html,body {font-size: 1.5vw;}
   }
 }
 @media only screen and (max-width: 768px) and (orientation: portrait) {
+  .delivery_companies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
+
   ._orinationRight_25.wrap_mW {
     right: 50% !important;
     zoom: 0.7 !important;
