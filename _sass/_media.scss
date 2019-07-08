@@ -1,70 +1,66 @@
-/*@media (min-width: 1240px){
-html,body {font-size: 1.5vw;}
-}*/
-@media (min-width: 1240px){
+@media (min-width: 1240px) {
   .delivery_companies {
     display: flex;
     justify-content: space-between;
   }
 }
 
-
-@media (min-width: 768px) and (max-width: 1025px){
-  html,body {font-size: 1.5vw;}
+@media (min-width: 768px) and (max-width: 1025px) {
+  html, body {
+    font-size: 1.5vw;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-  html,body {font-size: 1.75vw;}
+  html, body {
+    font-size: 1.75vw;
+  }
   #mobile_nav {
-    font-size: 2rem;}
-  .intro li, .intro>p{
+    font-size: 2rem;
+  }
+  .intro li, .intro > p {
     font-size: 1.5rem;
   }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  html,body {font-size: 2.4vw;}
+  html, body {
+    font-size: 2.4vw;
+  }
   #mobile_nav {
-    font-size: 2rem;}
-  .intro li, .intro>p{
+    font-size: 1.8rem;
+  }
+  .intro li, .intro > p {
     font-size: 1.4rem;
   }
   .delivery_companies img {
     max-width: 80%;
   }
-
 }
 
-@media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait){
-
+@media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait) {
   .tverd_banner {
     -webkit-background-size: 80%;
     background-size: 85%;
   }
-
 }
-
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
   .delivery_companies {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-
   }
-
   ._orinationRight_25.wrap_mW {
-    right: 50%!important;
-    zoom: .7!important;
-    top: 1rem!important;
+    right: 50% !important;
+    zoom: .7 !important;
+    top: 1rem !important;
   }
-
   #popup__toggle > div {
     zoom: 0.5;
   }
-
   .nav_primary {
     display: none;
     visibility: hidden;
@@ -78,14 +74,14 @@ html,body {font-size: 1.5vw;}
   header {
     height: 65px;
   }
-
-  .hero  {
-   h1{ padding-top: 18rem;
-    img{
-      width: 40%;
+  .hero {
+    h1 {
+      padding-top: 18rem;
+      img {
+        width: 40%;
+      }
     }
-   }
-    h2{
+    h2 {
       padding-top: 20rem;
     }
   }
@@ -124,14 +120,14 @@ html,body {font-size: 1.5vw;}
       padding-right: 2rem;
     }
   }
-
-  .production_item:last-child{
+  .production_item:last-child {
     background-position: 15%;
-    a{
+
+    a {
       justify-content: flex-end;
       text-align: right;
-    }}
-
+    }
+  }
   .delivery_banner, .service_banner, .tverd_banner {
     -webkit-background-size: 45%;
     background-size: 45%;
@@ -140,44 +136,46 @@ html,body {font-size: 1.5vw;}
     order: -1;
   }
 
+  .callback_wrapper {
+    flex-direction: column;
 
-.callback_wrapper {
-  flex-direction: column;
-
-  div {
-    padding: 1rem 0;
+    div {
+      padding: 1rem 0;
+    }
   }
-}
-.callback_ask p:last-child{
-text-align: right;}
-.callback_ask p:nth-child(2){
-text-align: center;
-}
+  .callback_ask p:last-child {
+    text-align: right;
+  }
+  .callback_ask p:nth-child(2) {
+    text-align: center;
+  }
   .intro img {
     width: 100%;
   }
   .footer_phone, .footer_mail {
-    font-size: 1.1rem;}
+    font-size: 1.1rem;
+  }
   .subscribe_form input {
-    line-height: 22px;}
+    line-height: 22px;
+  }
   #popup__toggle {
-    bottom: 100px;}
+    bottom: 100px;
+  }
 }
 
+@media (max-aspect-ratio: 16/9) {
+  .wrapper video {
+    width: auto;
+    height: 100%;
+  }
+}
 
-
-
-@media (max-aspect-ratio: 16/9){
-.wrapper video {
-  width: auto;
-  height: 100%;
-}}
-
-@media (min-aspect-ratio: 16/9){
+@media (min-aspect-ratio: 16/9) {
   .wrapper video {
     width: 100%;
     height: auto;
-  }}
+  }
+}
 
 @media (max-width: 767px) and (orientation: portrait) {
   .wrapper video {
