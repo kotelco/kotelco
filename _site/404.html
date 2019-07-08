@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--[if IE 9]>
-<html class="no-js ie9 no_parallax" lang="ru-RU"><![endif]-->
+<html class="no-js ie9 no_parallax" lang="ru-UA"><![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js no_parallax" lang="ru_RU"><!--<![endif]-->
+<html class="no-js no_parallax" lang="ru_UA"><!--<![endif]-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,19 +67,18 @@
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <header id="header" class="scro">
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
             <input type="checkbox"/>
             <span></span>
             <span></span>
             <span></span>
-            <section class="mobile_logo">
+            <div class="mobile_logo">
                 <a href="/" title="">
-                    <img src="/images/logo_new_colors_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко">
+                    <img src="/images/logo_kotelko_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко">
                 </a>
-            </section>
+            </div>
             <menu id="mobile_nav">
-                <ul class="mobile_menu">
                     <li><a href="/">Главная</a></li>
                     <li class="header_production"><a href="/#production">Продукция</a>
                         <ul class="mobile_sub-menu">
@@ -106,19 +105,17 @@
                     <li><a href="/delivery">Доставка</a></li>
                     <li><a href="/service">Сервис</a></li>
                     <li><a href="#contact">Контакты</a></li>
-                </ul>
-
             </menu>
         </div>
-        <section class="nav_primary">
-            <section class="header_inner">
-                <section class="logo">
+        <div class="nav_primary">
+            <div class="header_inner">
+                <div class="logo">
                     <a href="/" title="">
-                        <img src="/images/logo_new_colors_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко">
+                        <img src="/images/logo_kotelko_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко">
                     </a>
-                </section>
-                <menu>
-                    <ul class="main_menu scro">
+                </div>
+                <menu class="main_menu scro">
+
                         <li><a href="/">Главная</a></li>
                         <li><a href="/#production">Продукция</a>
                             <ul class="sub-menu scro">
@@ -143,10 +140,9 @@
                         <li><a href="/delivery">Доставка</a></li>
                         <li><a href="/service">Сервис</a></li>
                         <li><a href="#contact">Контакты</a></li>
-                    </ul>
                 </menu>
-            </section>
-        </section><!--#nav-primary-->
+            </div>
+        </div><!--#nav-primary-->
     </nav>
 </header>
 
@@ -186,7 +182,7 @@
 <footer>
     <div id="contact" class="footer_wrapper">
         <div class="contacts footer_cell">
-            <div class="footer_logo"><a href="#"><img src="/images/logo_new_colors_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко"/></a></div>
+            <div class="footer_logo"><a href="#"><img src="/images/logo_kotelko_noUrl.png" alt="KotelCo logo" title="Логотип Котел.Ко"/></a></div>
             <p class="footer_phone">+38(068)&nbsp;0854088<br>+38(063)&nbsp;3800010</p>
             <p class="footer_mail">kotelco@ukr.net</p>
             <ul class="social">
@@ -271,7 +267,7 @@
         <div id="popup__close" >X</div>
         <p>Оставьте Ваш номер телефона.<br>Мы обязательно Вам перезвоним!</p>
         <div class="callback_form">
-    <form id="formaction" class="callback_form" method="POST">
+    <form id="formaction_popup" class="callback_form" method="POST">
         <input type="text" name="name" placeholder="Ваше имя"><br/>
         <div class="form__field">
             <input type="tel" name="phone" placeholder="Ваш номер телефона" required
@@ -283,8 +279,8 @@
         <input type="submit" value="Перезвоните мне"/>
     </form>
     <script>
-        var contactform =  document.getElementById('formaction');
-        contactform.setAttribute('action', '//formspree.io/' + 'kotelco' + '@' + 'ukr' + '.' + 'net');
+        var contactform_popup =  document.getElementById('formaction_popup');
+        contactform_popup.setAttribute('action', '//formspree.io/' + 'kotelco' + '@' + 'ukr' + '.' + 'net');
     </script>
 </div>
     </div>

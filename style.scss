@@ -98,11 +98,12 @@ h2{
   font-size: 48px;
   vertical-align: center;
   h1{
-    padding-top: 10%;
+    font-size: 0;
 
     span{
       font-weight: 500;
       font-family: "Montserrat", "Arial", sans-serif;
+
     }
     img{
       opacity: .6;
@@ -712,8 +713,6 @@ input:invalid:not(:placeholder-shown) + .form__error {
 
 .blog_post_header {
   font-size: 1.5rem;
-  text-decoration: underline;
-
   span {
     font-style: italic;
     font-size: 1.3rem;
@@ -728,8 +727,6 @@ input:invalid:not(:placeholder-shown) + .form__error {
 
 
 .blog_post{
-  max-height: 20rem;
-  overflow: hidden;
   border-bottom: 1px solid black;
   p{
     font-family: "Roboto", "Arial", sans-serif;

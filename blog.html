@@ -7,11 +7,12 @@ title: Наш блог -
     {% for article in site.articles %}
     <a href="{{ article.url }}">
         {% include date_ru.html date=article.date %}
-        <h3>{{ article.name }}</h3>
+
     </a>
-    <article class="blog_post clear">
-        {{ article.content |truncatehtml | truncatewords: 100 | markdownify }}
-        <a href="{{ article.url }}"><i>Читать полностью</i></a>
+    <article class="blog_post">
+        <h3>{{ article.name }}</h3>
+        {{ article.content |truncatehtml | truncatewords: 150 | markdownify }}
+        <p  class="clear"><a href="{{ article.url }}"><i>Читать полностью</i></a></p>
     </article>
     <hr>
     {% endfor %}
