@@ -138,6 +138,7 @@ html, body {
   font-size: 16px;
   overflow-y: hidden;
   scroll-behavior: smooth;
+  transition: all .2s;
 }
 
 body.no_parallax, html.no_parallax {
@@ -291,10 +292,9 @@ a {
   padding-top: .5rem;
 }
 
-#nav_primary, #nav_primary* {
+/*#nav_primary, #nav_primary *{
   transition: all .2s;
-}
-
+}*/
 .header_inner {
   max-width: 1220px;
   display: flex;
@@ -472,7 +472,7 @@ main, footer {
 .main_wrapper, .footer_wrapper, .default_content, .delivery_wrapper, .service_wrapper {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 2rem 0 3rem;
 }
 
 .production_grid {
@@ -676,7 +676,7 @@ div.callback_now p:nth-child(2) {
   font-size: 1.8rem;
   background: #ff6633;
   color: white;
-  border: 2px #ff6633 solid;
+  border: 2px solid;
   border-radius: 10px;
   line-height: 3rem;
 }
@@ -860,7 +860,7 @@ footer {
 
 .social li {
   display: inline-block;
-  max-width: 20%;
+  max-width: 18%;
 }
 .social li a {
   display: block;
