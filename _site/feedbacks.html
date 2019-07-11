@@ -272,6 +272,7 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/54354751" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
 </div>
 <a id="popup__toggle" onclick="return false;">
     <div class="circlephone"></div>
@@ -287,6 +288,7 @@
         <p>Оставьте Ваш номер телефона.<br>Мы обязательно Вам перезвоним!</p>
         <div class="callback_form">
     <form id="formaction_popup" class="callback_form" method="POST">
+        <input type="text" name="model" id="model" placeholder="Модель котла"  style="display: none;">
         <input type="text" name="name" placeholder="Ваше имя"><br/>
         <div class="form__field">
             <input type="tel" name="phone" placeholder="Ваш номер телефона" required
@@ -303,14 +305,7 @@
     </script>
 </div>
     </div>
-    <!--[if lt IE 9]><div class="popup__valignfix"></div><![endif]-->
-    <script>
-        var popupBtn = document.getElementById('popup__toggle');
-        var popupWin = document.getElementById('popup__overlay');
-        var popupClose = document.getElementById('popup__close');
-        popupBtn.onclick = function() {popupWin.style.display = "block";};
-        popupClose.onclick = function() {popupWin.style.display = "none";};
-    </script>
+    <script src="/js/callback_modal.js"></script>
 </div>
 <script src="/js/mobmenu.js"></script>
 <script src="//code-ru1.jivosite.com/widget.js" jv-id="xes1Fd7vbh" async></script>

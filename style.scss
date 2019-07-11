@@ -933,15 +933,19 @@ table {
   padding-top: 2rem;
   margin-bottom: 2rem;
   tr:last-child td {
-    background-color: $orange;
     color: white;
     font-weight: 700;
-    text-shadow: -1px 0 2px red, 0 1px 2px red, 1px 0 2px red, 0 -1px 2px red;
+    font-size: 1.4rem;
+    text-shadow: -1px 0 2px $orange, 0 1px 2px $orange, 1px 0 2px $orange, 0 -1px 2px $orange;
   }
 }
 /* Zebra striping */
 tr:nth-of-type(odd) {
   background: $lightGrey;
+}
+
+tr:last-child {
+  background: rgba(44, 96, 131, 0.37);
 }
 
 td {
@@ -1022,6 +1026,81 @@ tr th:first-child{
     font-size: 1.5rem;
   }
 }
+
+
+.buy_cell, .buy {
+    cursor: url(/images/flame1.png), auto;
+    -webkit-animation: cursor 400ms infinite;
+    animation: cursor 400ms infinite;
+  position: relative;
+  }
+
+  @-webkit-keyframes cursor {
+    0% {cursor: url(/images/flame1.png), auto;}
+    25% {cursor: url(/images/flame2.png), auto;}
+    50% {cursor: url(/images/flame3.png), auto;}
+    100% {cursor: url(/images/flame4.png), auto;}
+  }
+
+  @keyframes cursor {
+    0% {cursor: url(/images/flame1.png), auto;}
+    25% {cursor: url(/images/flame2.png), auto;}
+    50% {cursor: url(/images/flame3.png), auto;}
+    100% {cursor: url(/images/flame4.png), auto;}
+  }
+
+  .buy_cell:after {
+    content: "";
+    background: url(/images/flame2.gif) no-repeat center bottom;
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+.buy {
+      display: inline-block;
+      font-family: "Montserrat", "Arial", sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: rgb(245,245,245);
+      text-shadow: 0 -1px rgba(0,0,0,.1);
+      text-decoration: none;
+      user-select: none;
+      padding: .3em 1em;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      background: $orange linear-gradient(#ffbf54, $orange);
+      box-shadow: inset #ffcc37 0 -1px 1px, inset 0 1px 1px #fff72d, #b74f29 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+      -webkit-animation: pulsate 1.2s linear infinite;
+      animation: pulsate 1.2s linear infinite;
+  opacity: .85;
+    }
+.buy:hover {
+      -webkit-animation-play-state: paused;
+      animation-play-state: paused;
+
+    }
+.buy:active {
+      top: 1px;
+      color: #fff;
+      text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+      box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+    }
+    @-webkit-keyframes pulsate {
+      50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+    }
+    @keyframes pulsate {
+      50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+    }
+
 
 
 

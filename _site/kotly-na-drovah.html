@@ -365,9 +365,13 @@
     </tr>
     <tr>
         <td><p>Цена, грн., не более</p><p>(толщина листа 4мм/6мм)</p></td>
-        <td colspan="2">13800/15600</td>
-        <td colspan="2">14500/17000</td>
-        <td colspan="2">15800/18100</td>
+        <td colspan="2" class="buy_cell">
+            <p>13800/15600</p>
+            <button class="buy" name="АОТВ-14П">КУПИТЬ</button></td>
+        <td colspan="2" class="buy_cell"><p>14500/17000</p>
+            <button class="buy" name="АОТВ-20П">КУПИТЬ</button></td>
+        <td colspan="2" class="buy_cell"><p>15800/18100</p>
+            <button class="buy" name="АОТВ-26П">КУПИТЬ</button></td>
     </tr>
     </tbody>
 </table>
@@ -884,6 +888,7 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/54354751" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
 </div>
 <a id="popup__toggle" onclick="return false;">
     <div class="circlephone"></div>
@@ -899,6 +904,7 @@
         <p>Оставьте Ваш номер телефона.<br>Мы обязательно Вам перезвоним!</p>
         <div class="callback_form">
     <form id="formaction_popup" class="callback_form" method="POST">
+        <input type="text" name="model" id="model" placeholder="Модель котла"  style="display: none;">
         <input type="text" name="name" placeholder="Ваше имя"><br/>
         <div class="form__field">
             <input type="tel" name="phone" placeholder="Ваш номер телефона" required
@@ -915,14 +921,7 @@
     </script>
 </div>
     </div>
-    <!--[if lt IE 9]><div class="popup__valignfix"></div><![endif]-->
-    <script>
-        var popupBtn = document.getElementById('popup__toggle');
-        var popupWin = document.getElementById('popup__overlay');
-        var popupClose = document.getElementById('popup__close');
-        popupBtn.onclick = function() {popupWin.style.display = "block";};
-        popupClose.onclick = function() {popupWin.style.display = "none";};
-    </script>
+    <script src="/js/callback_modal.js"></script>
 </div>
 <script src="/js/mobmenu.js"></script>
 <script src="//code-ru1.jivosite.com/widget.js" jv-id="xes1Fd7vbh" async></script>

@@ -11,11 +11,7 @@ var popup_on = function (e) {
     model_input.value = 'Модель ' + e.target.name;
 };
 
-popupBtn.onclick = function () {
-    model_input.style.display = 'none';
-    popupWin.style.display = 'block';
-};
-
+popupBtn.onclick = function () {model_input.style.display = 'none'; popupWin.style.display = 'block';};
 popupClose.onclick = function() {popupWin.style.display = 'none';};
 
 popupBtn.ontouchend = function () {model_input.style.display = 'none'; popupWin.style.display = 'block';};
