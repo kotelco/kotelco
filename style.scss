@@ -1057,7 +1057,7 @@ tr th:first-child{
 
   .buy_cell:after {
     content: "";
-    background: url(/images/flame2.gif) no-repeat center bottom;
+    background: url(/images/flame.gif) no-repeat center bottom;
     -webkit-background-size: cover;
     background-size: 100% 100%;
     opacity: 0.5;
@@ -1073,7 +1073,7 @@ tr th:first-child{
 .buy {
       display: inline-block;
       font-family: "Montserrat", "Arial", sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       font-weight: 700;
       color: rgb(245,245,245);
       text-shadow: 0 -1px rgba(0,0,0,.1);
