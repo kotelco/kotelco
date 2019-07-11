@@ -29,9 +29,6 @@ body.no_parallax, html.no_parallax {
 }
 
 #default_layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
   footer {
     margin-top:auto;
   }
@@ -926,12 +923,21 @@ input:invalid:not(:placeholder-shown) + .form__error {
   padding-top: 80px;
 }
 
+/*.table_wrapper{
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}*/
+
 table {
-  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  overflow-x: auto;
+  white-space: nowrap;
   border-collapse: collapse;
   background-color: rgba(255,102,51,.2);
-  padding-top: 2rem;
   margin-bottom: 2rem;
+
   tr:last-child td {
     color: white;
     font-weight: 700;
@@ -1201,6 +1207,6 @@ div.overlay_2w {
 bottom: auto;
 }
 
+@import "jivosite";
 @import "callback_btn";
 @import "media";
-@import "jivosite";
