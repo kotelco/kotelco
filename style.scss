@@ -377,7 +377,7 @@ main, footer {
 .main_wrapper, .footer_wrapper, .default_content, .delivery_wrapper, .service_wrapper {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 0 2rem 0 3rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .production_grid {
@@ -1195,5 +1195,12 @@ h3 {
   }
 }
 
+/*jivosite*/
+
+div.overlay_2w {
+bottom: auto;
+}
+
 @import "callback_btn";
 @import "media";
+@import "jivosite";
