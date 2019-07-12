@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/_includes/header.html" line="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8441d0c0-6924-427a-a0e6-bf1b40361be9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.sass-cache/915f51721065f26885f89c1135121499ccdbb397/_media.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/915f51721065f26885f89c1135121499ccdbb397/_media.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/articles/vybor_kotla/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/articles/vybor_kotla/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/elektrokotly.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/elektrokotly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/gas-dymohodnye.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gas-dymohodnye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/gas-parapetnye.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gas-parapetnye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/jivo_widget_offline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/jivo_widget_online.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/kotly-na-drovah.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kotly-na-drovah.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/kotly-s-ventilyatorom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kotly-s-ventilyatorom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/s-varochnoy-plitoy.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/s-varochnoy-plitoy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/elektrokotly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elektrokotly/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jivo_widget_offline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jivo_widget_online.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gas_boilers/gas-dymohodnye/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gas_boilers/gas-dymohodnye/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/wood_boilers/s-varochnoy-plitoy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wood_boilers/s-varochnoy-plitoy/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_dlitelnogo_gorenia/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_dlitelnogo_gorenia/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,88 +49,32 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49646303">
+    <splitter split-orientation="horizontal" split-proportion="0.52743703">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/temp/table.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="302" column="108" selection-start-line="302" selection-start-column="16" selection-end-line="302" selection-end-column="110" />
-                  <folding>
-                    <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#6502#6508#0" expanded="true" />
-                    <element signature="e#6645#6651#0" expanded="true" />
-                    <element signature="e#6663#6669#0" expanded="true" />
-                    <element signature="e#6758#6764#0" expanded="true" />
-                    <element signature="e#6776#6782#0" expanded="true" />
-                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#10212#10218#0" expanded="true" />
-                    <element signature="e#10237#10243#0" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#input#2;n#form#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/elektrokotly/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/pechi-na-drovah/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="535">
+                <state relative-caret-position="1088">
                   <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="457">
-                  <caret line="681" selection-start-line="681" selection-end-line="681" />
+                <state relative-caret-position="476">
+                  <caret line="25" column="7" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="147" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+            <entry file="file://$PROJECT_DIR$/service.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_includes/callback_btn.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_includes/callback_form.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+                <state relative-caret-position="153">
+                  <caret line="7" column="116" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="140" />
                 </state>
               </provider>
             </entry>
@@ -128,73 +86,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="1062" column="17" lean-forward="true" selection-start-line="1062" selection-start-column="17" selection-end-line="1062" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/jivosite/jivosite.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_layouts/article.html">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_includes/head.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="474">
-                  <caret line="42" selection-start-line="42" selection-end-line="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="426">
-                  <caret line="53" selection-start-line="53" selection-end-line="53" />
-                  <folding>
-                    <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_includes/jivosite.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="43" selection-start-column="43" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_sass/_jivosite.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="16" selection-start-line="6" selection-end-line="16" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_site/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-9237" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/callback_modal.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="30" selection-start-line="30" selection-end-line="30" />
+                <state relative-caret-position="259">
+                  <caret line="1198" column="13" lean-forward="true" selection-start-line="1197" selection-end-line="1198" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -215,8 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-</find>
-      <find>collections</find>
       <find>h3</find>
       <find>kotel.co</find>
       <find>articles</find>
@@ -245,6 +136,8 @@
       <find>logo_kotelko</find>
       <find>callback_m</find>
       <find>table</find>
+      <find>камер</find>
+      <find>att</find>
     </findStrings>
     <replaceStrings>
       <replace>default_content</replace>
@@ -292,14 +185,9 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/delivery.html" />
-        <option value="$PROJECT_DIR$/service.html" />
         <option value="$PROJECT_DIR$/thanks.html" />
         <option value="$PROJECT_DIR$/blog.html" />
-        <option value="$PROJECT_DIR$/pages/gas_boilers/gas-dymohodnye/index.html" />
         <option value="$PROJECT_DIR$/feedbacks.html" />
-        <option value="$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html" />
-        <option value="$PROJECT_DIR$/pages/wood_boilers/s-varochnoy-plitoy/index.html" />
-        <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_dlitelnogo_gorenia/index.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/feedbacks/_posts/2018-10-3-aotv-20.md" />
         <option value="$PROJECT_DIR$/feedbacks/_posts/2018-11-16-aogv-16.md" />
@@ -326,8 +214,13 @@
         <option value="$PROJECT_DIR$/_includes/jivosite.html" />
         <option value="$PROJECT_DIR$/_sass/_jivosite.scss" />
         <option value="$PROJECT_DIR$/_sass/_media.scss" />
-        <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" />
         <option value="$PROJECT_DIR$/pages/elektrokotly/index.html" />
+        <option value="$PROJECT_DIR$/service.html" />
+        <option value="$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html" />
+        <option value="$PROJECT_DIR$/pages/gas_boilers/gas-dymohodnye/index.html" />
+        <option value="$PROJECT_DIR$/pages/wood_boilers/s-varochnoy-plitoy/index.html" />
+        <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html" />
+        <option value="$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_dlitelnogo_gorenia/index.html" />
         <option value="$PROJECT_DIR$/style.scss" />
       </list>
     </option>
@@ -342,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,6 +258,26 @@
               <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="gas_boilers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="gas_boilers" type="462c0819:PsiDirectoryNode" />
+              <item name="gas-dymohodnye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="gas_boilers" type="462c0819:PsiDirectoryNode" />
+              <item name="gas-parapetnye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="pechi-na-drovah" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -371,6 +285,13 @@
               <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="wood_boilers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotelco.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="wood_boilers" type="462c0819:PsiDirectoryNode" />
+              <item name="s-varochnoy-plitoy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotelco.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -401,7 +322,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,7 +333,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="Template Data Languages" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -508,7 +428,9 @@
       <workItem from="1562575590418" duration="15431000" />
       <workItem from="1562666100612" duration="268000" />
       <workItem from="1562753340900" duration="641000" />
-      <workItem from="1562775331641" duration="23617000" />
+      <workItem from="1562775331641" duration="24213000" />
+      <workItem from="1562869551201" duration="613000" />
+      <workItem from="1562920988163" duration="9465000" />
     </task>
     <task id="LOCAL-00001" summary="This is test of VCS">
       <created>1559392938290</created>
@@ -542,13 +464,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270095000" />
+    <option name="totallyTimeSpent" value="280769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -661,34 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/s-varochnoy-plitoy/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_dlitelnogo_gorenia/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/gas_boilers/gas-dymohodnye/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="3" column="198" selection-start-line="3" selection-start-column="198" selection-end-line="3" selection-end-column="198" />
         </state>
       </provider>
     </entry>
@@ -830,13 +723,7 @@
     <entry file="file://$PROJECT_DIR$/_site/site.webmanifest">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/callback_buy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/callback_buy" />
     <entry file="file://$PROJECT_DIR$/temp/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18457">
@@ -844,13 +731,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp/js/callback_buy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/js/callback_buy" />
     <entry file="file://$PROJECT_DIR$/../Projects/Javascript/ColorGame/color1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -875,24 +756,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="3" column="122" selection-start-line="3" selection-start-column="122" selection-end-line="3" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/callback_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/fire/fire.scss" />
+    <entry file="file://$PROJECT_DIR$/images/fire.svg" />
+    <entry file="file://$PROJECT_DIR$/jivosite/jivosite.css" />
+    <entry file="file://$PROJECT_DIR$/_sass/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-823">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -910,45 +787,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/callback_modal.js">
+    <entry file="file://$PROJECT_DIR$/_includes/callback_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="17">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/fire/fire.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="81" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/fire.svg">
+    <entry file="file://$PROJECT_DIR$/pages/elektrokotly/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pechi-na-drovah/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9237" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jivosite/jivosite.css">
+    <entry file="file://$PROJECT_DIR$/jivosite/jivosite.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
+        <state relative-caret-position="901">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#!!top" expanded="true" />
@@ -963,19 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/article.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jivosite/jivosite.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_jivosite.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -983,9 +828,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/temp/table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="525">
           <caret line="302" column="108" selection-start-line="302" selection-start-column="16" selection-end-line="302" selection-end-column="110" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -996,45 +844,86 @@
             <element signature="e#6758#6764#0" expanded="true" />
             <element signature="e#6776#6782#0" expanded="true" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#10212#10218#0" expanded="true" />
-            <element signature="e#10237#10243#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#2;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#div#0;n#noscript#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#a#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#input#0;n#form#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_media.scss">
+    <entry file="file://$PROJECT_DIR$/js/callback_modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-823">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/article.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pechi-na-drovah/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="7" column="116" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gas_boilers/gas-parapetnye/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/gas_boilers/gas-dymohodnye/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="26" column="143" selection-start-line="26" selection-start-column="143" selection-end-line="26" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_dlitelnogo_gorenia/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="147" selection-start-line="32" selection-start-column="147" selection-end-line="32" selection-end-column="147" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/wood_boilers/tverdotoplivnye_atmosfernye/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="681" selection-start-line="681" selection-end-line="681" />
+        <state relative-caret-position="215">
+          <caret line="25" column="143" selection-start-line="25" selection-start-column="143" selection-end-line="25" selection-end-column="143" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/elektrokotly/index.html">
+    <entry file="file://$PROJECT_DIR$/pages/wood_boilers/s-varochnoy-plitoy/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        <state relative-caret-position="321">
+          <caret line="18" column="143" selection-start-line="18" selection-start-column="143" selection-end-line="18" selection-end-column="143" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="1062" column="17" lean-forward="true" selection-start-line="1062" selection-start-column="17" selection-end-line="1062" selection-end-column="17" />
+        <state relative-caret-position="259">
+          <caret line="1198" column="13" lean-forward="true" selection-start-line="1197" selection-end-line="1198" selection-end-column="13" />
         </state>
       </provider>
     </entry>
