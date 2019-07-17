@@ -43,16 +43,16 @@
 <!-- End Jekyll SEO tag -->
 
     <script>
-        const loadFont = (url) => {
+        var loadFont = function(url) {
             // the 'fetch' equivalent has caching issues
             var xhr = new XMLHttpRequest();
             xhr.open('GET', url, true);
-            xhr.onreadystatechange = () => {
+            xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
-                    let css = xhr.responseText;
+                    var css = xhr.responseText;
                     css = css.replace(/}/g, 'font-display: swap; }');
-                    const head = document.getElementsByTagName('head')[0];
-                    const style = document.createElement('style');
+                    var head = document.getElementsByTagName('head')[0];
+                    var style = document.createElement('style');
                     style.appendChild(document.createTextNode(css));
                     head.appendChild(style);
                 }
@@ -258,11 +258,10 @@
             <div class="main_wrapper">
 
                 <section id="about">
-                    <h4 class="blog_header clear"><span class="article_header_bg">О предприятии "Проскурів-Термо" </span></h4>
+                    <h4 class="blog_header clear"><span class="article_header_bg">О предприятии "Проскурів-Термо" </span> <a href="/about/">Читать полностью</a></h4>
                     <article class="intro">
                         <h4>ООО "ПРОСКУРІВ-ТЕРМО" - одно из самых перспективных предприятий - производителей отопительных
                             аппаратов в Украине.</h4>
-                        <a href="/about/">Читать полностью</a>
                         <p>Общество основано в феврале 2002р. За сравнительно небольшой срок работы предприятия: освоено
                             производство газовых аппаратов для отопления и горячего водоснабжения серии АОГВ мощностью
                             от 7
@@ -346,7 +345,7 @@
                 
                 <a href="/articles/vybor_kotla/">
                     
-12
+17
 июля
 
 2019

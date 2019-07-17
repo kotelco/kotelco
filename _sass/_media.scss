@@ -51,6 +51,12 @@
 }
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
+  .default_content img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
   #jivo_custom_widget{
     width: 2.2rem;
     z-index: 300000;

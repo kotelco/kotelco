@@ -41,16 +41,16 @@
 <!-- End Jekyll SEO tag -->
 
     <script>
-        const loadFont = (url) => {
+        var loadFont = function(url) {
             // the 'fetch' equivalent has caching issues
             var xhr = new XMLHttpRequest();
             xhr.open('GET', url, true);
-            xhr.onreadystatechange = () => {
+            xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
-                    let css = xhr.responseText;
+                    var css = xhr.responseText;
                     css = css.replace(/}/g, 'font-display: swap; }');
-                    const head = document.getElementsByTagName('head')[0];
-                    const style = document.createElement('style');
+                    var head = document.getElementsByTagName('head')[0];
+                    var style = document.createElement('style');
                     style.appendChild(document.createTextNode(css));
                     head.appendChild(style);
                 }
@@ -148,16 +148,18 @@
 </header>
 
 
-<article class="article_on_articles">
-    <h1>404.md</h1>
+<div class="main_wrapper">
+    <article class="article_on_articles">
+        <h1>404.md</h1>
 
 
-    <p>Sorry, we can’t find that page that you’re looking for. You can try again by going <a href="/">back to the homepage</a>.</p>
+        <p>Sorry, we can’t find that page that you’re looking for. You can try again by going <a href="/">back to the homepage</a>.</p>
 
 <p><a href="/"><img src="/images/404.jpg" alt="Constructocat by https://github.com/jasoncostello" style="width: 400px;" /></a></p>
 
 
-</article>
+    </article>
+
 <hr>
 <div class="comments">
 	<div id="disqus_thread"></div>
@@ -180,6 +182,7 @@
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
+</div>
 <footer>
     <div id="contact" class="footer_wrapper">
         <div class="contacts footer_cell">

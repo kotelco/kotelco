@@ -371,7 +371,7 @@ main, footer {
   visibility: hidden;
 }
 
-.main_wrapper, .footer_wrapper, .default_content, .delivery_wrapper, .service_wrapper {
+.main_wrapper, .footer_wrapper, .default_content {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 2rem 0 2rem;
@@ -919,9 +919,53 @@ input:invalid:not(:placeholder-shown) + .form__error {
 
 /*About page*/
 
-.about {
-  padding-top: 80px;
+.default_content .about {
+  padding-bottom: 2rem;
+p:first-child {
+  text-align: center;
 }
+h1{
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 3rem;
+}
+  li {
+    font-weight: 500;
+  }
+  .left_img {
+    float: left;
+    margin: 0 2rem 0 0;
+  }
+
+  .right_img {
+    float: right;
+    margin: 0 0 0 2rem;
+  }
+}
+
+.about:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+  background: url(images/warm-house-proskuriv-sm.jpg) repeat-y;
+  background-size: 100%;
+  height: 200vh;
+  opacity: .12;
+}
+
+.left_img {
+  float: left;
+  padding-right: 2rem;
+}
+
+.right_img {
+  float: right;
+  padding-left: 2rem;
+}
+
 
 /*.table_wrapper{
   display: block;
@@ -1113,8 +1157,7 @@ tr th:first-child{
 /*Articles*/
 
 .article_on_articles {
-  max-width: 1220px;
-  margin: 0 auto;
+
   ul {
     padding-left: 2rem;
   }
