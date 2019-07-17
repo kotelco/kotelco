@@ -919,6 +919,10 @@ input:invalid:not(:placeholder-shown) + .form__error {
 
 /*About page*/
 
+#about {
+  padding-top: 60px;
+}
+
 .default_content .about {
   padding-bottom: 2rem;
 p:first-child {
