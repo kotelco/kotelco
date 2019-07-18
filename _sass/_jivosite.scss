@@ -13,7 +13,8 @@
 	cursor: pointer;
 
 	height: 170px;
-	background-image: url(images/jivo_widget_offline_ru.png);
+	background: url(images/jivo_widget_offline_ru.png) no-repeat;
+	background-size: 100%;
 }
 
 /* when you hover the label should be shifted to the right by 3px */
@@ -24,5 +25,5 @@
 /* if there are operators online - show other label*/
 #jivo_custom_widget.jivo_online{
 	height: 215px;
-	background-image: url(images/jivo_widget_online_ru.png);
+	background: url(images/jivo_widget_online_ru.png) no-repeat;
 }

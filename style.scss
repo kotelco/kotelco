@@ -537,6 +537,9 @@ main, footer {
   position: relative;
   background-color: transparent;
   justify-content: space-between;
+  p {
+    text-indent: 0;
+  }
 }
 
 .callback_wrapper:before {

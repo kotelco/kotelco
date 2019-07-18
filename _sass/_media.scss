@@ -11,7 +11,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait){
   html, body {
     font-size: 1.5vw;
   }
@@ -28,7 +28,7 @@
 
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px){
 
   html, body {
     font-size: 2.8vw;
@@ -50,27 +50,20 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1025px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1025px) {
   .tverd_banner {
     -webkit-background-size: 80%;
     background-size: 85%;
   }
 }
 
-@media only screen and (max-width: 768px) and (orientation: portrait) {
+@media only screen and (max-width: 768px) {
   .default_content img {
     width: 100%;
     margin: 0 auto;
     padding: 1rem 0;
   }
 
-  #jivo_custom_widget{
-    width: 2.2rem;
-    z-index: 300000;
-    cursor: pointer;
-    background: url(images/jivo_widget_offline_ru.png) no-repeat;
-    background-size: 100%;
-  }
 
   .delivery_companies {
     display: grid;
@@ -216,7 +209,7 @@
     background-size: 100%;
     z-index: -1;
     opacity: 0.8;
-    background: url('images/kotly-proskurov-home-bg.jpg') center center no-repeat;
+    background: url('/images/kotly-proskurov-home-bg.jpg') center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
@@ -224,5 +217,8 @@
 
 
 @media (max-height: 800px) and (orientation: landscape) {
-  .popup {zoom: 1;}
+  .popup {zoom: 1;
+  vertical-align: bottom;
+  margin-bottom: 20px;}
 }
+
