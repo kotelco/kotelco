@@ -1,10 +1,13 @@
-@media (min-width: 1240px) {
+@media (min-width: 1220px) {
   .delivery_companies {
     display: flex;
     justify-content: space-between;
   }
   table{
     white-space: initial;
+  }
+  .main_wrapper, .footer_wrapper, .default_content {
+    padding: 0;
   }
 }
 
@@ -17,14 +20,12 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
   html, body {
-    font-size: 1.75vw;
+    font-size: 1.9vw;
   }
   #mobile_nav {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
-  .intro li, .intro > p {
-    font-size: 1.5rem;
-  }
+
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

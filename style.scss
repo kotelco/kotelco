@@ -12,7 +12,6 @@ $lightGrey:#eeeeee;
 @import "hamburger";
 
 html, body{
-
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
   color: $darkGrey;
@@ -22,6 +21,11 @@ html, body{
   overflow-y: hidden;
   scroll-behavior: smooth;
   transition: all .2s;
+  p{
+  text-indent: 2rem;}
+  li p, table p {
+    text-indent: 0;
+  }
 }
 
 body.no_parallax, html.no_parallax {
@@ -113,7 +117,7 @@ h2{
     padding-top: 9rem;
   }
   h2{
-    padding-top: 15rem;
+    padding: 15rem 3rem 0;
   }
 }
 
@@ -170,9 +174,7 @@ header {
   #mobile_nav>li{
     list-style: square;
   }
-  .mobile_sub-menu{
-    font-size: 0.95em;
-  }
+
 }
 
 ul, li, menu {
@@ -374,7 +376,7 @@ main, footer {
 .main_wrapper, .footer_wrapper, .default_content {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 0 2rem 0 2rem;
+  padding: 0 2.4rem;
 }
 
 .production_grid {
@@ -483,11 +485,9 @@ main, footer {
 }
 
 .intro {
-  font-size: 1.6rem;
   padding: 1rem 0;
   >p{
     font:  1.2rem "Roboto", "Arial", sans-serif;
-    text-indent: 4rem;
     font-weight: 300;
   }
   img {
@@ -645,6 +645,7 @@ input:invalid:not(:placeholder-shown) + .form__error {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2vw;
+  font-weight: 300;
 }
 
 .feedback_post_text{
@@ -1119,7 +1120,7 @@ tr th:first-child{
       display: inline-block;
       font-family: "Montserrat", "Arial", sans-serif;
       font-size: 1.2rem;
-      font-weight: 700;
+      font-weight: 500;
       color: rgb(245,245,245);
       text-shadow: 0 -1px rgba(0,0,0,.1);
       text-decoration: none;
@@ -1235,14 +1236,14 @@ h3 {
     padding: 1rem 0;
     a {
       font-size: 1.1rem;
-      font-weight: 700;
+      font-weight: 500;
     }
   }
 }
 
 p.attention {
   color: red;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.2rem;
   text-align: center;
 }
