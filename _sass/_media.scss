@@ -221,3 +221,8 @@
     background-size: cover;
   }
 }
+
+
+@media (max-height: 800px) and (orientation: landscape) {
+  .popup {zoom: 1;}
+}
