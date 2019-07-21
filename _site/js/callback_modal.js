@@ -4,6 +4,7 @@ var popupClose = document.getElementById('popup__close');
 var cell_btns = document.querySelectorAll('.buy');
 var model_input = document.getElementById('model');
 
+
 var popup_on = function (e) {
 
     popupWin.style.display = 'block';
@@ -27,4 +28,11 @@ for (let i = 0; i < cell_btns.length; i++) {
 }
 
 
+function hide(e) {
+    if (this === e.target) {
+        popupWin.style.display = "none";
+    }
+}
 
+popupWin.onclick = hide;
+popupWin.ontouchend = hide;

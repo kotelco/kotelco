@@ -178,6 +178,17 @@
   #popup__toggle {
     bottom: 100px;
   }
+  .wrap_all_inputs, .wrap_textarea {
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .wrap_submit {
+    display: block;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
 }
 
 @media (max-aspect-ratio: 16/9) {
