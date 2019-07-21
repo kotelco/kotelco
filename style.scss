@@ -364,7 +364,7 @@ main, footer {
 .main_wrapper, .footer_wrapper, .default_content {
   max-width: 1220px;
   margin: 0 auto;
-  padding: 0 2.4rem;
+  padding: 0 2.2rem;
 }
 
 .production_grid {
@@ -746,7 +746,7 @@ footer{
 .footer_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  grid-gap: 1rem ;
+  grid-gap: .6rem ;
 }
 
 .footer_logo img{
@@ -1120,7 +1120,7 @@ h3 {
   margin-top: 100px;
 }
 
-.delivery_wrapper {
+.main_wrapper.delivery_wrapper {
   padding: 100px 2rem 2rem;
   li {
     font-weight: 500;
@@ -1130,11 +1130,16 @@ h3 {
   img {
     box-shadow: 5px 6px 7px $grey ;
     margin-bottom: 2rem;
+    width: 100%;
+  }
+  ul{
+    transform:translateX(0);
   }
 }
 
 .delivery_companies {
   width: 100%;
+  max-width: 1220px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
