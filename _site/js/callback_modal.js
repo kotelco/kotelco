@@ -8,6 +8,7 @@ var model_input = document.getElementById('model');
 var popup_on = function (e) {
 
     popupWin.style.display = 'block';
+    popupWin.style.zIndex = '100';
     model_input.style.display = 'block';
     model_input.value = 'Модель ' + e.target.name;
 };
@@ -15,12 +16,13 @@ var popup_on = function (e) {
 popupBtn.onclick = function () {
     model_input.style.display = 'none';
     popupWin.style.display = 'block';
+    popupWin.style.zIndex = '100';
 };
 
-popupClose.onclick = function() {popupWin.style.display = 'none';};
+popupClose.onclick = function() {popupWin.style.display = 'none'; popupWin.style.zIndex = '-100';};
 
-popupBtn.ontouchend = function () {model_input.style.display = 'none'; popupWin.style.display = 'block';};
-popupClose.ontouchend = function() {popupWin.style.display = 'none';};
+popupBtn.ontouchend = function () {model_input.style.display = 'none'; popupWin.style.display = 'block';popupWin.style.zIndex = '100';};
+popupClose.ontouchend = function() {popupWin.style.display = 'none'; popupWin.style.zIndex = '-100';};
 
 for (let i = 0; i < cell_btns.length; i++) {
     cell_btns[i].addEventListener('click', popup_on);
@@ -31,6 +33,7 @@ for (let i = 0; i < cell_btns.length; i++) {
 function hide(e) {
     if (this === e.target) {
         popupWin.style.display = "none";
+        popupWin.style.zIndex = '-100';
     }
 }
 

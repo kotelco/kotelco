@@ -228,8 +228,22 @@
 
 
 @media (max-height: 800px) and (orientation: landscape) {
-  .popup {zoom: 1;
+  .popup {zoom: .8;
   vertical-align: bottom;
   margin-bottom: 20px;}
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero  {
+    h1 {
+    padding-top: 50px;
+    }
+    h2 {
+      padding: 0 2rem;
+      font-size: 2.5rem;
+    }
+  }
+
+}
+
 
