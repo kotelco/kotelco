@@ -217,7 +217,7 @@
   .wrapper {
     perspective: none;
     height: 100vh;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: auto;
     background-color: rgba(51,153,204,0.5);
     scroll-behavior: smooth;
