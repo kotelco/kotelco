@@ -58,6 +58,8 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+
   .default_content img {
     width: 100%;
     margin: 0 auto;
@@ -208,6 +210,23 @@
 }
 
 @media (max-width: 767px) and (orientation: portrait) {
+  body {
+    overflow-y: auto;
+  }
+
+  .wrapper {
+    perspective: none;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: rgba(51,153,204,0.5);
+    scroll-behavior: smooth;
+  }
+
+  .hero {
+    position: relative;
+    height: initial;
+  }
   .wrapper video {
     display: none;
   }
@@ -223,8 +242,12 @@
     z-index: -1;
     opacity: 0.8;
     background: url('/images/kotly-proskurov-home-bg.jpg') center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+  }
+  .specs_header_wrapper h1 {
+    font-size: 2rem;
+  }
+  .default_content h1 {
+    font-size: 2rem;
   }
 }
 
